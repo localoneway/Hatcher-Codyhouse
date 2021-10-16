@@ -1,0 +1,954 @@
+<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 79.1357c9e, 2021/07/14-00:39:56        " rdfhash="83915F2E5509E8403DB7D43E6D9E23C9" merged="0">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    xmlns:creatorAtom="http://ns.adobe.com/creatorAtom/1.0/"
+    xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+    xmlns:illustrator="http://ns.adobe.com/illustrator/1.0/"
+    xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+    xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/"
+    xmlns:xmpGImg="http://ns.adobe.com/xap/1.0/g/img/"
+    xmlns:stMfs="http://ns.adobe.com/xap/1.0/sType/ManifestItem#"
+   xmpMM:InstanceID="xmp.iid:797ce880-76e6-4ef4-9fd1-0768ae5be9a2"
+   xmpMM:DocumentID="ed18b4f6-8664-f899-053d-b04600000045"
+   xmpMM:OriginalDocumentID="xmp.did:8592ddaf-39f6-4521-8a09-d83041a44b08"
+   xmp:MetadataDate="2021-08-27T11:55:27-07:00"
+   xmp:ModifyDate="2021-08-27T11:55:27-07:00"
+   xmp:CreatorTool="Adobe Premiere Pro 2021.0 (Macintosh)"
+   xmp:CreateDate="2021-08-27T11:52:19-07:00"
+   xmpDM:videoFrameRate="30.000000"
+   xmpDM:videoFieldOrder="Progressive"
+   xmpDM:videoPixelAspectRatio="1/1"
+   xmpDM:startTimeScale="30"
+   xmpDM:startTimeSampleSize="1"
+   dc:format="WebM">
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="3482c124-bce0-74ac-eae8-649e00000072"
+      stEvt:when="2021-08-27T11:55:27-07:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Macintosh)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="created"
+      stEvt:instanceID="xmp.iid:718111c4-f975-4958-b4fc-feb4a61abe1e"
+      stEvt:when="2021-08-27T11:52:27-07:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Macintosh)"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:8cadac6b-bcf3-487d-9cca-91db930850f2"
+      stEvt:when="2021-08-27T11:55:27-07:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Macintosh)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:797ce880-76e6-4ef4-9fd1-0768ae5be9a2"
+      stEvt:when="2021-08-27T11:55:27-07:00"
+      stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Macintosh)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+   <xmpMM:Ingredients>
+    <rdf:Bag>
+     <rdf:li
+      stRef:instanceID="da565604-622e-dcbc-52d9-aed200000070"
+      stRef:documentID="3503a30d-a480-3695-876b-216e00000043"
+      stRef:fromPart="time:0d2514758400000f254016000000"
+      stRef:toPart="time:0d2514758400000f254016000000"
+      stRef:filePath="Comp 1_3.mp4"
+      stRef:maskMarkers="None"/>
+    </rdf:Bag>
+   </xmpMM:Ingredients>
+   <xmpMM:Pantry>
+    <rdf:Bag>
+     <rdf:li>
+      <rdf:Description
+       xmp:ModifyDate="2021-08-25T20:58:15-07:00"
+       xmp:MetadataDate="2021-08-25T20:58:15-07:00"
+       xmp:CreateDate="2020-05-01T06:16:32Z"
+       xmpDM:startTimeScale="30"
+       xmpDM:startTimeSampleSize="1"
+       xmpDM:videoFrameRate="30.000000"
+       xmpDM:videoFieldOrder="Progressive"
+       xmpDM:videoPixelAspectRatio="1/1"
+       xmpDM:audioSampleRate="48000"
+       xmpDM:audioSampleType="16Int"
+       xmpDM:audioChannelType="Stereo"
+       xmpMM:InstanceID="97f055b0-84a7-5c1d-926f-413900000088"
+       xmpMM:DocumentID="802a9314-c865-83d8-bb81-984c0000005b"
+       xmpMM:OriginalDocumentID="xmp.did:818d8fec-f1b0-3d49-bd5c-1f6fdb26f0ab"
+       dc:format="QuickTime"
+       tiff:Orientation="1">
+      <xmpDM:altTimecode
+       xmpDM:timeValue="00:00:00:00"
+       xmpDM:timeFormat="30Timecode"/>
+      <xmpDM:videoFrameSize
+       stDim:w="3840"
+       stDim:h="2160"
+       stDim:unit="pixel"/>
+      <xmpDM:startTimecode
+       xmpDM:timeFormat="30Timecode"
+       xmpDM:timeValue="00:00:00:00"/>
+      <xmpDM:duration
+       xmpDM:value="900"
+       xmpDM:scale="1/30"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="created"
+         stEvt:instanceID="xmp.iid:818d8fec-f1b0-3d49-bd5c-1f6fdb26f0ab"
+         stEvt:when="2020-04-29T13:16:32+07:00"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:aacd1057-0f93-e24c-b4dd-5dd707cc5a9e"
+         stEvt:when="2020-04-29T14:53:08+07:00"
+         stEvt:changed="/"/>
+        <rdf:li
+         stEvt:action="modified"
+         stEvt:parameters="unknown modifications"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="97f055b0-84a7-5c1d-926f-413900000088"
+         stEvt:when="2021-08-25T20:58:15-07:00"
+         stEvt:softwareAgent="Adobe After Effects 2021 (Macintosh)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      <creatorAtom:windowsAtom
+       creatorAtom:extension=".aep"
+       creatorAtom:invocationFlags="-ep"/>
+      <creatorAtom:macAtom
+       creatorAtom:applicationCode="1180193859"
+       creatorAtom:invocationAppleEvent="1131559026"/>
+      <creatorAtom:aeProjectLink
+       creatorAtom:compositionID="55"
+       creatorAtom:renderQueueItemID="26"
+       creatorAtom:renderOutputModuleIndex="0"
+       creatorAtom:fullPath="D:\vdo\ไฟล์ ae\Technology network 123.aep"/>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="2021-08-27T00:08:32Z"
+       xmp:ModifyDate="2021-08-27T11:51:51-07:00"
+       xmp:MetadataDate="2021-08-27T11:51:51-07:00"
+       xmp:CreatorTool="Adobe After Effects 2021 (Macintosh)"
+       xmpDM:videoFrameRate="30.000000"
+       xmpDM:videoFieldOrder="Progressive"
+       xmpDM:videoPixelAspectRatio="1/1"
+       xmpDM:startTimeScale="30"
+       xmpDM:startTimeSampleSize="1"
+       tiff:Orientation="1"
+       xmpMM:InstanceID="da565604-622e-dcbc-52d9-aed200000070"
+       xmpMM:DocumentID="3503a30d-a480-3695-876b-216e00000043"
+       xmpMM:OriginalDocumentID="xmp.did:a2b68c59-f150-4824-ad6f-c061bc288b4f"
+       dc:format="H.264">
+      <xmpDM:startTimecode
+       xmpDM:timeFormat="30Timecode"
+       xmpDM:timeValue="00:00:00:00"/>
+      <xmpDM:videoFrameSize
+       stDim:w="1920"
+       stDim:h="1080"
+       stDim:unit="pixel"/>
+      <xmpDM:altTimecode
+       xmpDM:timeValue="00:00:00:00"
+       xmpDM:timeFormat="30Timecode"/>
+      <xmpDM:duration
+       xmpDM:value="891000"
+       xmpDM:scale="1/90000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="6e02d1df-2b22-70d7-a635-e36300000070"
+         stEvt:when="2021-08-26T17:08:32-07:00"
+         stEvt:softwareAgent="Adobe Adobe Media Encoder 2021.0 (Macintosh)"
+         stEvt:changed="/"/>
+        <rdf:li
+         stEvt:action="created"
+         stEvt:instanceID="xmp.iid:3d141808-ccfa-4fa7-ba9c-d79fb7baea1a"
+         stEvt:when="2021-08-25T20:50:44-07:00"
+         stEvt:softwareAgent="Adobe After Effects 2021 (Macintosh)"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:7b85db1b-9885-40b1-9fb4-8e8525af5e33"
+         stEvt:when="2021-08-25T20:56:36-07:00"
+         stEvt:softwareAgent="Adobe After Effects 2021 (Macintosh)"
+         stEvt:changed="/content"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:9da2e40e-a0d4-4b62-a378-9602d33ccca9"
+         stEvt:when="2021-08-26T17:05:53-07:00"
+         stEvt:softwareAgent="Adobe After Effects 2021 (Macintosh)"
+         stEvt:changed="/content"/>
+        <rdf:li
+         stEvt:action="derived"
+         stEvt:parameters="saved to new location"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:b33fe1de-79b8-4bf0-9473-cff59770a02c"
+         stEvt:when="2021-08-26T17:05:53-07:00"
+         stEvt:softwareAgent="Adobe After Effects 2021 (Macintosh)"
+         stEvt:changed="/"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:b6e60398-d851-4803-9d09-8a03be64181c"
+         stEvt:when="2021-08-26T17:08:32-07:00"
+         stEvt:softwareAgent="Adobe Adobe Media Encoder 2021.0 (Macintosh)"
+         stEvt:changed="/"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:0a55ea0e-0682-4902-8675-2d03b9bfdf21"
+         stEvt:when="2021-08-26T17:08:32-07:00"
+         stEvt:softwareAgent="Adobe Adobe Media Encoder 2021.0 (Macintosh)"
+         stEvt:changed="/metadata"/>
+        <rdf:li
+         stEvt:action="modified"
+         stEvt:parameters="unknown modifications"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="da565604-622e-dcbc-52d9-aed200000070"
+         stEvt:when="2021-08-27T11:51:51-07:00"
+         stEvt:softwareAgent="Adobe Premiere Pro 2021.0 (Macintosh)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      <xmpMM:DerivedFrom
+       stRef:instanceID="xmp.iid:eaab2ec7-4d2e-4681-b34e-5a925a7c789f"
+       stRef:documentID="xmp.did:eaab2ec7-4d2e-4681-b34e-5a925a7c789f"
+       stRef:originalDocumentID="xmp.did:3d141808-ccfa-4fa7-ba9c-d79fb7baea1a"/>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:24f6d597-c8c6-42df-81de-d2006fafe54b"
+         stRef:fromPart="time:0d304128f30720"
+         stRef:toPart="time:0d304128f30720"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:00f046c7-4a2a-4aeb-b631-0e6a17661350">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">AdobeStock_345615863.mov</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="97f055b0-84a7-5c1d-926f-413900000088"
+         stRef:documentID="802a9314-c865-83d8-bb81-984c0000005b"
+         stRef:fromPart="time:0d304128f30720"
+         stRef:toPart="time:0d304128f30720"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:1b059657-2feb-431d-8310-b926434f7744">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">contact page mockup.jpg</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:cd2067c8-9092-4dc2-af90-1b14a37410a7"
+         stRef:documentID="xmp.did:cd2067c8-9092-4dc2-af90-1b14a37410a7"
+         stRef:renditionClass="default"
+         stRef:fromPart="time:0d304128f30720"
+         stRef:toPart="time:0d304128f30720"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.comp"
+       xmpMM:InstanceID="xmp.iid:24f6d597-c8c6-42df-81de-d2006fafe54b">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Comp 1</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:00f046c7-4a2a-4aeb-b631-0e6a17661350"
+         stRef:fromPart="time:0d304128f30720"
+         stRef:toPart="time:0d304128f30720"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:1b059657-2feb-431d-8310-b926434f7744"
+         stRef:fromPart="time:0d304128f30720"
+         stRef:toPart="time:0d304128f30720"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:2b265e5e-e707-4482-acae-3c9a2eef3081"
+         stRef:fromPart="time:0d304128f30720"
+         stRef:toPart="time:0d304128f30720"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:2b4f920d-f5bb-4b8f-9eb1-9f267a75bc0f"
+         stRef:fromPart="time:0d304128f30720"
+         stRef:toPart="time:0d304128f30720"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:d097025f-5b73-4b62-8a29-996fa84692c8"
+         stRef:fromPart="time:0d921600f30720"
+         stRef:toPart="time:0d304128f30720"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:2b265e5e-e707-4482-acae-3c9a2eef3081">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">background-12.png</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:2b4f920d-f5bb-4b8f-9eb1-9f267a75bc0f">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">background-12.png</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:ModifyDate="2021-08-26T04:23:55Z"
+       xmp:MetadataDate="2021-08-25T21:23:55-07:00"
+       xmp:CreatorTool="Adobe After Effects 2021 (Macintosh)"
+       xmp:CreateDate="2021-08-26T04:21:16Z"
+       xmpDM:startTimeScale="2997"
+       xmpDM:startTimeSampleSize="100"
+       xmpDM:videoFrameRate="30.000000"
+       xmpDM:videoFieldOrder="Progressive"
+       xmpDM:videoPixelAspectRatio="1/1"
+       xmpDM:audioSampleRate="48000"
+       xmpDM:audioSampleType="16Int"
+       xmpDM:audioChannelType="Stereo"
+       xmpMM:InstanceID="xmp.iid:67b6d746-9b09-4dcc-9a62-5edb81f71c88"
+       xmpMM:DocumentID="41ce49bd-09a1-3f0a-a1b6-6f530000003f"
+       xmpMM:OriginalDocumentID="xmp.did:7d04bc44-80bd-46df-a68e-0b63461e3052"
+       dc:format="QuickTime"
+       tiff:Orientation="1">
+      <xmpDM:altTimecode
+       xmpDM:timeValue="00:00:00:00"
+       xmpDM:timeFormat="2997NonDropTimecode"/>
+      <xmpDM:startTimecode
+       xmpDM:timeFormat="2997NonDropTimecode"
+       xmpDM:timeValue="00:00:00:00"/>
+      <xmpDM:videoFrameSize
+       stDim:w="2160"
+       stDim:h="2160"
+       stDim:unit="pixel"/>
+      <xmpDM:duration
+       xmpDM:value="900"
+       xmpDM:scale="1/30"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="1dc84870-5a79-4e21-0feb-8c200000006c"
+         stEvt:when="2021-08-25T21:23:55-07:00"
+         stEvt:softwareAgent="Adobe Adobe Media Encoder 2021.0 (Macintosh)"
+         stEvt:changed="/"/>
+        <rdf:li
+         stEvt:action="created"
+         stEvt:instanceID="xmp.iid:3d141808-ccfa-4fa7-ba9c-d79fb7baea1a"
+         stEvt:when="2021-08-25T20:50:44-07:00"
+         stEvt:softwareAgent="Adobe After Effects 2021 (Macintosh)"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:7b85db1b-9885-40b1-9fb4-8e8525af5e33"
+         stEvt:when="2021-08-25T20:56:36-07:00"
+         stEvt:softwareAgent="Adobe After Effects 2021 (Macintosh)"
+         stEvt:changed="/content"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:2dae8c22-6566-4775-bd23-e9e7633b4ed5"
+         stEvt:when="2021-08-25T21:19:51-07:00"
+         stEvt:softwareAgent="Adobe After Effects 2021 (Macintosh)"
+         stEvt:changed="/content"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:f7836138-1705-4eda-a6e7-6c401b402599"
+         stEvt:when="2021-08-25T21:19:51-07:00"
+         stEvt:softwareAgent="Adobe After Effects 2021 (Macintosh)"
+         stEvt:changed="/"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:fc2c6327-b6cb-4c94-a055-f3d1b3a3e8c0"
+         stEvt:when="2021-08-25T21:23:55-07:00"
+         stEvt:softwareAgent="Adobe Adobe Media Encoder 2021.0 (Macintosh)"
+         stEvt:changed="/"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:67b6d746-9b09-4dcc-9a62-5edb81f71c88"
+         stEvt:when="2021-08-25T21:23:55-07:00"
+         stEvt:softwareAgent="Adobe Adobe Media Encoder 2021.0 (Macintosh)"
+         stEvt:changed="/metadata"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      <xmpMM:DerivedFrom
+       stRef:instanceID="xmp.iid:e354d9d2-5a27-4e73-b551-40f4a012a916"
+       stRef:documentID="xmp.did:e354d9d2-5a27-4e73-b551-40f4a012a916"
+       stRef:originalDocumentID="xmp.did:3d141808-ccfa-4fa7-ba9c-d79fb7baea1a"/>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:7dfec71b-9fef-4448-a4a7-7d3d5a2a1f61"
+         stRef:fromPart="time:0d921600f30720"
+         stRef:toPart="time:0d921600f30720"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.comp"
+       xmpMM:InstanceID="xmp.iid:7dfec71b-9fef-4448-a4a7-7d3d5a2a1f61">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Comp 1</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:d3abf1c1-8185-47ef-b609-fb2dde97afe1"
+         stRef:fromPart="time:0d921600f30720"
+         stRef:toPart="time:0d921600f30720"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:fd838571-b88c-4ff2-97dc-1226f1a89785"
+         stRef:fromPart="time:0d921600f30720"
+         stRef:toPart="time:0d921600f30720"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="image/jpeg"
+       xmp:CreatorTool="Adobe Illustrator 25.2 (Macintosh)"
+       xmp:CreateDate="2021-08-03T21:30:03-07:00"
+       xmp:ModifyDate="2021-08-04T04:30:06Z"
+       xmp:MetadataDate="2021-08-03T21:30:04-07:00"
+       xmpMM:RenditionClass="default"
+       xmpMM:OriginalDocumentID="uuid:65E6390686CF11DBA6E2D887CEACB407"
+       xmpMM:DocumentID="xmp.did:cd2067c8-9092-4dc2-af90-1b14a37410a7"
+       xmpMM:InstanceID="xmp.iid:cd2067c8-9092-4dc2-af90-1b14a37410a7"
+       illustrator:StartupProfile="Web"
+       illustrator:CreatorSubTool="Adobe Illustrator"
+       pdf:Producer="Adobe PDF library 15.00"
+       pdfx:CreatorVersion="21.0.0">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">hwsmockup</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmp:Thumbnails>
+       <rdf:Alt>
+        <rdf:li
+         xmpGImg:width="256"
+         xmpGImg:height="152"
+         xmpGImg:format="JPEG"
+         xmpGImg:image="/9j/4AAQSkZJRgABAgEASABIAAD/7QAsUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAASAAAAAEA&#xA;AQBIAAAAAQAB/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoK&#xA;DBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8f&#xA;Hx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAmAEAAwER&#xA;AAIRAQMRAf/EAaIAAAAHAQEBAQEAAAAAAAAAAAQFAwIGAQAHCAkKCwEAAgIDAQEBAQEAAAAAAAAA&#xA;AQACAwQFBgcICQoLEAACAQMDAgQCBgcDBAIGAnMBAgMRBAAFIRIxQVEGE2EicYEUMpGhBxWxQiPB&#xA;UtHhMxZi8CRygvElQzRTkqKyY3PCNUQnk6OzNhdUZHTD0uIIJoMJChgZhJRFRqS0VtNVKBry4/PE&#xA;1OT0ZXWFlaW1xdXl9WZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo+Ck5SVlpeYmZ&#xA;qbnJ2en5KjpKWmp6ipqqusra6voRAAICAQIDBQUEBQYECAMDbQEAAhEDBCESMUEFURNhIgZxgZEy&#xA;obHwFMHR4SNCFVJicvEzJDRDghaSUyWiY7LCB3PSNeJEgxdUkwgJChgZJjZFGidkdFU38qOzwygp&#xA;0+PzhJSktMTU5PRldYWVpbXF1eX1RlZmdoaWprbG1ub2R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo&#xA;+DlJWWl5iZmpucnZ6fkqOkpaanqKmqq6ytrq+v/aAAwDAQACEQMRAD8A9U4q7FXYq7FXYq7FXYq7&#xA;FXYq7FWO/mOiyfl55ojb7L6RfqfkbaQYq+f/ADL+Vn5K29zqdppzx3eoabLAt7awBOcSTokvNgQv&#xA;JeD7GOo7dQwGLmySjydjpNPCfNgepeVPyps4NMnN1Dc29/8ApOCO3sY2ubyS5trizihtjEhTjO3r&#xA;yuoYgFOPjvZglIx9Tj6qMBOofgoafRvyntppxPpOsWnBpPStbvTJhKpLLyUssgDGFVLHlT9r2GXO&#xA;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"/>
+       </rdf:Alt>
+      </xmp:Thumbnails>
+      <xmpMM:DerivedFrom
+       stRef:instanceID="xmp.iid:735606df-39d8-4ea1-8b83-1f1b385e62c4"
+       stRef:documentID="xmp.did:735606df-39d8-4ea1-8b83-1f1b385e62c4"
+       stRef:originalDocumentID="uuid:65E6390686CF11DBA6E2D887CEACB407"
+       stRef:renditionClass="default"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:1605f3f5-d36c-4d2c-8612-124ec829df04"
+         stEvt:when="2021-07-15T17:31:47-07:00"
+         stEvt:softwareAgent="Adobe Illustrator 25.3 (Macintosh)"
+         stEvt:changed="/"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:cd2067c8-9092-4dc2-af90-1b14a37410a7"
+         stEvt:when="2021-08-03T21:30:04-07:00"
+         stEvt:softwareAgent="Adobe Illustrator 25.2 (Macintosh)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      <xmpMM:Manifest>
+       <rdf:Seq>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/Presentatioins/Template/assets/Hatcher arrow.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/Presentatioins/Template/assets/Hatcher arrow.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/Presentatioins/Template/assets/Hatcher arrow.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/Presentatioins/Template/assets/Hatcher arrow.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/Presentatioins/Template/assets/Hatcher arrow.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/Presentatioins/Template/assets/Hatcher arrow.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/Presentatioins/Template/assets/Hatcher arrow.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/var/folders/qc/2c0y8_t954q4r8klhzchyfnr0000gn/T/TemporaryItems/(A Document Being Saved By Illustrator)/AI_25_2/AuNeHi.tif"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/var/folders/qc/2c0y8_t954q4r8klhzchyfnr0000gn/T/TemporaryItems/(A Document Being Saved By Illustrator)/AI_25_2/AuNeHi.tif"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/var/folders/qc/2c0y8_t954q4r8klhzchyfnr0000gn/T/TemporaryItems/(A Document Being Saved By Illustrator)/AI_25_2/AuNeHi.tif"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/resources/rehalp/PBJcolor.jpg"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/resources/rehalp/mjk.jpg"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/resources/rehalp/PBJcolor.jpg"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/resources/rehalp/mjk.jpg"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/resources/rehalp/pjp.jpg"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/Reference Material/templates/iphone11 template.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/Website 2.5/sketch art/Globe stand-in.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/var/folders/qc/2c0y8_t954q4r8klhzchyfnr0000gn/T/TemporaryItems/(A Document Being Saved By Illustrator)/AI_25_2/z605NI.tif"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/Reference Material/templates/iphone11 template.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/Website 2.5/sketch art/logotrans.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/Reference Material/templates/iphone11 template.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/Website 2.5/sketch art/logotrans.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/Website 2.5/sketch art/logotrans.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/achudasama/Desktop/Screen Shot 2021-07-15 at 5.15.31 PM.png"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/Presentatioins/Template/assets/Hatcher arrow.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/Presentatioins/Template/assets/Hatcher arrow.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/Presentatioins/Template/assets/Hatcher arrow.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/resources/rehalp/PBJcolor.jpg"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/resources/rehalp/mjk.jpg"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/resources/rehalp/pjp.jpg"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/ALCHEMY/Landing page 2/graphic-06-09-09-10.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Desktop/Screen Shot 2021-07-15 at 6.46.16 PM.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/achudasama/Desktop/Screen Shot 2021-07-15 at 5.15.31 PM.png"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/var/folders/wm/hs90bnys1tn15g2ytj2xw27c0000gs/T/TemporaryItems/(A Document Being Saved By Illustrator)/5Iyo4M.tif"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Desktop/Screen Shot 2021-08-03 at 7.57.35 PM.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          stMfs:linkForm="EmbedByReference">
+         <stMfs:reference
+          stRef:filePath="/Users/akashchudasama/Documents/Website 2.5/sketch art/Globe stand-in.png"
+          stRef:documentID="0"
+          stRef:instanceID="0"/>
+         </rdf:Description>
+        </rdf:li>
+       </rdf:Seq>
+      </xmpMM:Manifest>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:filePath="/var/folders/qc/2c0y8_t954q4r8klhzchyfnr0000gn/T/TemporaryItems/(A Document Being Saved By Illustrator)/AI_25_2/AuNeHi.tif"/>
+        <rdf:li
+         stRef:filePath="/var/folders/qc/2c0y8_t954q4r8klhzchyfnr0000gn/T/TemporaryItems/(A Document Being Saved By Illustrator)/AI_25_2/AuNeHi.tif"/>
+        <rdf:li
+         stRef:filePath="/var/folders/qc/2c0y8_t954q4r8klhzchyfnr0000gn/T/TemporaryItems/(A Document Being Saved By Illustrator)/AI_25_2/AuNeHi.tif"/>
+        <rdf:li
+         stRef:filePath="/Users/akashchudasama/Documents/Website 2.5/sketch art/Globe stand-in.png"
+         stRef:documentID="0"
+         stRef:instanceID="0"/>
+        <rdf:li
+         stRef:filePath="/var/folders/qc/2c0y8_t954q4r8klhzchyfnr0000gn/T/TemporaryItems/(A Document Being Saved By Illustrator)/AI_25_2/z605NI.tif"/>
+        <rdf:li
+         stRef:filePath="/Users/achudasama/Desktop/Screen Shot 2021-07-15 at 5.15.31 PM.png"/>
+        <rdf:li
+         stRef:filePath="/Users/achudasama/Desktop/Screen Shot 2021-07-15 at 5.15.31 PM.png"/>
+        <rdf:li
+         stRef:filePath="/var/folders/wm/hs90bnys1tn15g2ytj2xw27c0000gs/T/TemporaryItems/(A Document Being Saved By Illustrator)/5Iyo4M.tif"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:d097025f-5b73-4b62-8a29-996fa84692c8">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Comp 1.mov</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:67b6d746-9b09-4dcc-9a62-5edb81f71c88"
+         stRef:documentID="41ce49bd-09a1-3f0a-a1b6-6f530000003f"
+         stRef:fromPart="time:0d921600f30720"
+         stRef:toPart="time:0d921600f30720"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:d3abf1c1-8185-47ef-b609-fb2dde97afe1">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">background-12.png</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:fd838571-b88c-4ff2-97dc-1226f1a89785">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">AdobeStock_345615863.mov</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="97f055b0-84a7-5c1d-926f-413900000088"
+         stRef:documentID="802a9314-c865-83d8-bb81-984c0000005b"
+         stRef:fromPart="time:0d921600f30720"
+         stRef:toPart="time:0d921600f30720"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+    </rdf:Bag>
+   </xmpMM:Pantry>
+   <xmpMM:DerivedFrom
+    stRef:instanceID="xmp.iid:718111c4-f975-4958-b4fc-feb4a61abe1e"
+    stRef:documentID="xmp.did:718111c4-f975-4958-b4fc-feb4a61abe1e"
+    stRef:originalDocumentID="xmp.did:718111c4-f975-4958-b4fc-feb4a61abe1e"/>
+   <creatorAtom:windowsAtom
+    creatorAtom:extension=".prproj"
+    creatorAtom:invocationFlags="/L"/>
+   <creatorAtom:macAtom
+    creatorAtom:applicationCode="1347449455"
+    creatorAtom:invocationAppleEvent="1129468018"
+    creatorAtom:posixProjectPath="/Users/Delman/Library/Mobile Documents/com~apple~CloudDocs/Sites/Hatcher/WebM/Hatcher WebM.prproj"/>
+   <xmpDM:projectRef
+    xmpDM:type="movie"/>
+   <xmpDM:videoFrameSize
+    stDim:w="1920"
+    stDim:h="1080"
+    stDim:unit="pixel"/>
+   <xmpDM:duration
+    xmpDM:value="297"
+    xmpDM:scale="1/30"/>
+   <xmpDM:startTimecode
+    xmpDM:timeFormat="30Timecode"
+    xmpDM:timeValue="00:00:00:00"/>
+   <xmpDM:altTimecode
+    xmpDM:timeValue="00:00:00:00"
+    xmpDM:timeFormat="30Timecode"/>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
