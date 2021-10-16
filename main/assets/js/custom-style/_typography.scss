@@ -1,0 +1,60 @@
+:root {
+  // font family
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: good-times, sans-serif;
+
+  // font size
+  --text-base-size: 1em; // body font-size
+  --text-scale-ratio: 1.2; // multiplier used to generate the type scale values 👇
+
+  // line-height
+  --body-line-height: 1.4;
+  --heading-line-height: 1.2;
+
+  // capital letters - used in combo with the lhCrop mixin
+  --font-primary-capital-letter: 1;
+  --font-secondary-capital-letter: 1;
+
+  // unit - don't modify unless you want to change the typography unit (e.g., from Em to Rem units)
+  --text-unit: 1em; // if not Em units → --text-unit: var(--text-base-size);
+}
+
+:root, * {
+  // type scale
+  --text-xs: calc((var(--text-unit) / var(--text-scale-ratio)) / var(--text-scale-ratio));
+  --text-sm: calc(var(--text-xs) * var(--text-scale-ratio));
+  --text-md: calc(var(--text-sm) * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-lg: calc(var(--text-md) * var(--text-scale-ratio));
+  --text-xl: calc(var(--text-lg) * var(--text-scale-ratio));
+  --text-xxl: calc(var(--text-xl) * var(--text-scale-ratio));
+  --text-xxxl: calc(var(--text-xxl) * var(--text-scale-ratio));
+  --text-xxxxl: calc(var(--text-xxxl) * var(--text-scale-ratio));
+}
+
+@supports(--css: variables) {
+  @include breakpoint(md) {
+    :root {
+      --text-base-size: 1.25em;
+      --text-scale-ratio: 1.25;
+    }
+  }
+}
+
+body {
+  font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-primary);
+  font-weight: 700;
+}
+
+// font family
+.font-primary { font-family: var(--font-primary); }
+.font-secondary { font-family: var(--font-secondary); }
+
+// gradient
+.color-gradient-primary-top { background-image: linear-gradient(0deg, var(--gradient-primary-stop-1), var(--gradient-primary-stop-2)); }
+.color-gradient-primary-right { background-image: linear-gradient(90deg, var(--gradient-primary-stop-1), var(--gradient-primary-stop-2)); }
+.color-gradient-primary-bottom { background-image: linear-gradient(180deg, var(--gradient-primary-stop-1), var(--gradient-primary-stop-2)); }
+.color-gradient-primary-left { background-image: linear-gradient(270deg, var(--gradient-primary-stop-1), var(--gradient-primary-stop-2)); }
