@@ -98,7 +98,8 @@
 
                         
                         <form method="POST" data-netlify="true" name="contact-page-form" id="contact-page-form" action="/#contact" class="form-template-v3">
-<fieldset class="margin-bottom-md padding-bottom-md border-bottom">
+                          <input type="hidden" name="contact-page-form" value="contact-page-form" />
+                          <fieldset class="margin-bottom-md padding-bottom-md border-bottom">
 <div class="text-component margin-bottom-md text-center">
   <h2>Contact Hatcher</h2>
 </div>
@@ -157,21 +158,6 @@
 <button type="submit" class="btn btn--primary">Send</button>
 </div>
 </form>
-<script>
-  document.querySelector("form").addEventListener("submit", handleSubmit);
-
-const handleSubmit = (e) => {
-  e.preventDefault()
-  let myForm = document.getElementById('contact-page-form');
-  let formData = new FormData(myForm)
-  fetch('/', {
-    method: 'POST',
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString()
-  }).then(() => console.log('Form successfully submitted')).catch((error) =>
-    alert(error))
-}
-</script>
 
           <div class="text-component">
             <p class="text-xs color-contrast-medium">We respect your privacy - <a href="https://www.termsfeed.com/live/6b875575-f7ec-488a-8d71-b2ab30972009" target="_blank" class="color-accent">read more.</a></p></div>
