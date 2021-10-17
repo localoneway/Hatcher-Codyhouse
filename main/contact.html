@@ -93,31 +93,9 @@
                       <form class="form-template-v3">
                     <fieldset class="margin-bottom-md padding-bottom-md border-bottom">
                       <div class="text-component margin-bottom-md">
-                        <!--start of FORM #1-->
-                    
-                          <h1>FormSubmit Demo</h1>
-                          <form target="_blank" action="https://formsubmit.co/9a71473ef81bb3e076a974f3d2127bf3" method="POST">
-                            <div class="form-group">
-                              <div class="form-row">
-                                <div class="col">
-                                  <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-                                </div>
-                                <div class="col">
-                                  <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
-                          </form>
-                        
-                        <form action="https://formsubmit.co/9a71473ef81bb3e076a974f3d2127bf3" method="POST" class="form-template-v3">
+                        <!-- Form 1 start -->
+                        <form method="POST" data-netlify="true" id="contact-hatcher" class="form-template-v3">
 <fieldset class="margin-bottom-md padding-bottom-md border-bottom">
-  <input type="hidden" name="_subject" value="Hatcher - Contact">
-  <input type="text" name="_honey" style="display:none">
-  <input type="hidden" name="_template" value="box">
 <div class="text-component margin-bottom-md text-center">
   <h2>Contact Hatcher</h2>
 </div>
@@ -125,7 +103,7 @@
 <div class="margin-bottom-xs">
   <div class="grid gap-xxs items-center@md">
     <div class="col-4@md">
-      <label class="form-label" type="text" name="name" for="firstName">Name</label>
+      <label class="form-label" for="firstName">Name</label>
     </div>
 
     <div class="col-8@md">
@@ -141,13 +119,12 @@
     </div>
 
     <div class="col-8@md">
-      <input class="form-control width-100%" type="email" name="email" id="inputEmail" placeholder="Email Address" required>
-      
+      <input class="form-control width-100%" type="email" name="email" id="inputEmail" required>
     </div>
   </div>
 </div>
 
-<!--<div class="margin-bottom-xs">
+<div class="margin-bottom-xs">
   <div class="grid gap-xxs items-center@md">
     <div class="col-4@md">
       <label class="form-label" for="companyName">Company Name</label>
@@ -170,15 +147,19 @@
     </div>
   </div>
 </div>
-</fieldset> -->
+</fieldset>
 
 
 <div class="text-right">
 <button type="submit" class="btn btn--primary">Send</button>
-
 </div>
 </form>
 
+
+
+
+            </div>
+          </form>
 
           <div class="text-component">
             <p class="text-xs color-contrast-medium">We respect your privacy - <a href="https://www.termsfeed.com/live/6b875575-f7ec-488a-8d71-b2ab30972009" target="_blank" class="color-accent">read more.</a></p></div>
