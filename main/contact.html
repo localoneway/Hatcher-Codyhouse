@@ -93,28 +93,8 @@
                       <form class="form-template-v3">
                     <fieldset class="margin-bottom-md padding-bottom-md border-bottom">
                       <div class="text-component margin-bottom-md">
-                        <script type="text/javascript">
-                        (function() {
-                        emailjs.init("user_qSa3Q2nQCbyEwezj47QC5");
-                        })();
-                        </script>
-                        <script type="text/javascript">
-       window.onload = function() {
-           document.getElementById('ccontact-hatcher').addEventListener('submit', function(event) {
-               event.preventDefault();
-               // generate a five digit number for the contact_number variable
-               this.contact_number.value = Math.random() * 100000 | 0;
-               // these IDs from the previous steps
-               emailjs.sendForm('contact-hatcher', 'Hatcher Contact', this)
-                   .then(function() {
-                       console.log('SUCCESS!');
-                   }, function(error) {
-                       console.log('FAILED...', error);
-                   });
-           });
-       }
-   </script>
-                        <form id="contact-hatcher" class="form-template-v3">
+                        <!-- Form 1 start -->
+                        <form method="POST" data-netlify="true" id="contact-hatcher" class="form-template-v3">
 <fieldset class="margin-bottom-md padding-bottom-md border-bottom">
 <div class="text-component margin-bottom-md text-center">
   <h2>Contact Hatcher</h2>
@@ -127,7 +107,7 @@
     </div>
 
     <div class="col-8@md">
-      <input class="form-control width-100%" type="text" name="firstName" id="firstName" required>
+      <input class="form-control width-100%" type="text" name="name" id="firstName" required>
     </div>
   </div>
 </div>
@@ -139,7 +119,7 @@
     </div>
 
     <div class="col-8@md">
-      <input class="form-control width-100%" type="email" name="inputEmail" id="inputEmail" required>
+      <input class="form-control width-100%" type="email" name="email" id="inputEmail" required>
     </div>
   </div>
 </div>
