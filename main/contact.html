@@ -84,6 +84,26 @@
                 <div class="width-100% font-light text-xxxl padding-top-xs link-fx-del cursor-pointer" aria-controls="modal-form"><span>Stay in touch</span><svg class="icon" viewBox="0 0 12 12" aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="9" y1="6" x2="3.5" y2="11.5"/><line x1="3.5" y1="0.5" x2="9" y2="6"/></svg></button>
                   </div>
                     </div>
+                    <form name="contact" method="POST" data-netlify="true">
+                      <p>
+                        <label>Your Name: <input type="text" name="name" /></label>   
+                      </p>
+                      <p>
+                        <label>Your Email: <input type="email" name="email" /></label>
+                      </p>
+                      <p>
+                        <label>Your Role: <select name="role[]" multiple>
+                          <option value="leader">Leader</option>
+                          <option value="follower">Follower</option>
+                        </select></label>
+                      </p>
+                      <p>
+                        <label>Message: <textarea name="message"></textarea></label>
+                      </p>
+                      <p>
+                        <button type="submit">Send</button>
+                      </p>
+                    </form>
                   </section>
                   </main>
 
@@ -94,27 +114,6 @@
                     <fieldset class="margin-bottom-md padding-bottom-md border-bottom">
                       <div class="text-component margin-bottom-md">
                         <!-- Form 1 start -->
-
-                        <form name="contact" method="POST" data-netlify="true">
-                          <p>
-                            <label>Your Name: <input type="text" name="name" /></label>   
-                          </p>
-                          <p>
-                            <label>Your Email: <input type="email" name="email" /></label>
-                          </p>
-                          <p>
-                            <label>Your Role: <select name="role[]" multiple>
-                              <option value="leader">Leader</option>
-                              <option value="follower">Follower</option>
-                            </select></label>
-                          </p>
-                          <p>
-                            <label>Message: <textarea name="message"></textarea></label>
-                          </p>
-                          <p>
-                            <button type="submit">Send</button>
-                          </p>
-                        </form>
 
                         
                         <form method="POST" data-netlify="true" name="contact-page-form" id="contact-hatcher" class="form-template-v3">
