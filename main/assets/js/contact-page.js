@@ -1,14 +1,13 @@
-function sendMail(params){
-  var tempParams ={
-    firstName:document.getElementById("firstName").value,
-    inputEmail:document.getElementById("inputEmail").value,
-    companyName:document.getElementById("companyName").value,
-    textarea:document.getElementById("textarea").value,
-  };
+document.querySelector("form").addEventListener("submit", handleSubmit);
 
-  emailjs.send('gmail', 'Hatcher Contact', 'tempParams')
-  .then(function(res){
-    console.log("success", res.status);
-  })
-
+const handleSubmit = (e) => {
+  e.preventDefault()
+  let myForm = document.getElementById('contact-hatcher');
+  let formData = new FormData(myForm)
+  fetch('/', {
+    method: 'POST',
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString()
+  }).then(() => console.log('Form successfully submitted')).catch((error) =>
+    alert(error))
 }
