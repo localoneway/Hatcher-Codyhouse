@@ -2,7 +2,7 @@ document.querySelector("form").addEventListener("submit", handleSubmit);
 
 const handleSubmit = (e) => {
   e.preventDefault()
-  let myForm = document.getElementById('contact-hatcher');
+  let myForm = document.getElementById('submit');
   let formData = new FormData(myForm)
   fetch('/', {
     method: 'POST',
