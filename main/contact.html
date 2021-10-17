@@ -159,30 +159,19 @@
 </form>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script>
-  let testForm = document.querySelector("#contact form");
-  
-  testForm.addEventListener('submit', e => {
-    e.preventDefault();
+  document.querySelector("form").addEventListener("submit", handleSubmit);
 
-    const formData = new FormData(testForm);
-    fetch(testForm.getAttribute('action'), {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
-        'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
-      },
-      body: new URLSearchParams(formData).toString()
-    })
-    .then(res => {
-      if (res) {
-        M.toast({
-          html: 'Thank you for your submission!',
-          classes: 'pulse'
-        });
-      }
-    });
-  });
-
+const handleSubmit = (e) => {
+  e.preventDefault()
+  let myForm = document.getElementById('contact-page-form');
+  let formData = new FormData(myForm)
+  fetch('/', {
+    method: 'POST',
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString()
+  }).then(() => console.log('Form successfully submitted')).catch((error) =>
+    alert(error))
+}
 </script>
 
           <div class="text-component">
