@@ -9,30 +9,12 @@
     timeoutId = false,
     loaderScaleDown = 0.2;
 
+    var headline = document.getElementsByClassName('text-anim')[0]; // 👈 your headline element
+new TextAnim(headline);
+
   var timeLeaveAnim = 0;
 
   new PageTransition({
-    afterEnter: function(newContent, link) {
-      // slideshow
-      var slideshowEl = newContent.getElementsByClassName('slideshow');
-      if(slideshowEl.length > 0) {
-        new Slideshow({
-          element: slideshowEl[0],
-          navigation: true, // show dots navigation
-          autoplay : false, // enable/disable autoplay
-          autoplayInterval : false, // in milliseconds - default is 5000 (5s)
-          autoplayOnHover: false, // do not pause autoplay on hover
-          swipe : false // enable/disable swipe
-        }); 
-      }
-  
-      // animated headline
-      var headline = newContent.getElementsByClassName('text-anim');
-      if(headline.length > 0) {
-        new TextAnim(headline[0]);
-      }
-    },
-    // additional options here
     leaveAnimation: function(initContent, link, cb) {
       timeLeaveAnim = 0;
       Util.addClass(transPanel[0], 'page-trans-v1--is-visible');
@@ -68,6 +50,7 @@
     progressAnimation: function(link) {
       animateLoader(3000, loaderScaleDown, 0.9);
     }
+
   });
 
   function animateLoader(duration, startValue, finalValue, cb) {
