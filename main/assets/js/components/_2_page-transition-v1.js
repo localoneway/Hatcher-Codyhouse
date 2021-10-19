@@ -13,6 +13,7 @@
 
   new PageTransition({
     afterEnter: function(newContent, link) {
+      // slideshow
       var slideshowEl = newContent.getElementsByClassName('slideshow');
       if(slideshowEl.length > 0) {
         new Slideshow({
@@ -24,7 +25,17 @@
           swipe : false // enable/disable swipe
         }); 
       }
+  
+      // animated headline
+      var headline = newContent.getElementsByClassName('text-anim');
+      if(headline.length > 0) {
+        new TextAnim(headline[0]);
+      }
     },
+    // additional options here
+  });
+  
+  new PageTransition({
     leaveAnimation: function(initContent, link, cb) {
       timeLeaveAnim = 0;
       Util.addClass(transPanel[0], 'page-trans-v1--is-visible');
@@ -60,8 +71,7 @@
     progressAnimation: function(link) {
       animateLoader(3000, loaderScaleDown, 0.9);
     }
-  }
-  );
+  });
 
   function animateLoader(duration, startValue, finalValue, cb) {
     // takes care of animating the loader element
