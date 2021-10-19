@@ -3247,14 +3247,14 @@ function initContactMap(wrapper) {
 (function() {
   var pageTransitionWrapper = document.getElementsByClassName('js-page-trans');
   if(pageTransitionWrapper.length < 1) return;
-  
+
   var transPanel = document.getElementsByClassName('page-trans-v1'),
     loaderScale = '--page-trans-v1-loader-scale',
     timeoutId = false,
     loaderScaleDown = 0.2;
 
   var timeLeaveAnim = 0;
-  
+
   new PageTransition({
     leaveAnimation: function(initContent, link, cb) {
       timeLeaveAnim = 0;
@@ -3275,10 +3275,10 @@ function initContactMap(wrapper) {
         window.cancelAnimationFrame(timeoutId);
         timeoutId = false;
       }
-
+      
       // set a minimum loader animation duration of 0.75s
       var duration = Math.max((750 - new Date().getTime() + timeLeaveAnim), 300);
-  
+
       // complete page-trans-v1__loader scale animation
       animateLoader(duration, parseFloat(getComputedStyle(transPanel[0]).getPropertyValue(loaderScale)), 1, function() {
         Util.removeClass(transPanel[0], 'page-trans-v1--is-visible');
@@ -3288,17 +3288,31 @@ function initContactMap(wrapper) {
         });
       });
     },
+    afterEnter: function(newContent, link) {
+      var slideshowEl = newContent.getElementsByClassName('slideshow');
+      if(slideshowEl.length > 0) {
+        new Slideshow({
+          element: slideshowEl[0],
+          navigation: true, // show dots navigation
+          autoplay : false, // enable/disable autoplay
+          autoplayInterval : false, // in milliseconds - default is 5000 (5s)
+          autoplayOnHover: false, // do not pause autoplay on hover
+          swipe : false // enable/disable swipe
+        }); 
+      }
+    },
     progressAnimation: function(link) {
       animateLoader(3000, loaderScaleDown, 0.9);
     }
-  });
+  }
+  );
 
   function animateLoader(duration, startValue, finalValue, cb) {
     // takes care of animating the loader element
     var currentTime = false;
 
     var animateScale = function(timestamp) {
-      if (!currentTime) currentTime = timestamp;        
+      if (!currentTime) currentTime = timestamp;
       var progress = timestamp - currentTime;
       if(progress > duration) progress = duration;
       var val = Math.easeInOutQuart(progress, startValue, finalValue - startValue, duration);
@@ -3313,6 +3327,8 @@ function initContactMap(wrapper) {
     timeoutId = window.requestAnimationFrame(animateScale);
   };
 }());
+
+
 // File#: _2_slideshow
 // Usage: codyhouse.co/license
 (function() {
