@@ -3256,6 +3256,19 @@ function initContactMap(wrapper) {
   var timeLeaveAnim = 0;
 
   new PageTransition({
+    afterEnter: function(newContent, link) {
+      var slideshowEl = newContent.getElementsByClassName('slideshow');
+      if(slideshowEl.length > 0) {
+        new Slideshow({
+          element: slideshowEl[0],
+          navigation: true, // show dots navigation
+          autoplay : false, // enable/disable autoplay
+          autoplayInterval : false, // in milliseconds - default is 5000 (5s)
+          autoplayOnHover: false, // do not pause autoplay on hover
+          swipe : false // enable/disable swipe
+        }); 
+      }
+    },
     leaveAnimation: function(initContent, link, cb) {
       timeLeaveAnim = 0;
       Util.addClass(transPanel[0], 'page-trans-v1--is-visible');
