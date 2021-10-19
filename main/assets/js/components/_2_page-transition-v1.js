@@ -9,9 +9,6 @@
     timeoutId = false,
     loaderScaleDown = 0.2;
 
-    var headline = document.getElementsByClassName('text-anim')[0]; // 👈 your headline element
-new TextAnim(headline);
-
   var timeLeaveAnim = 0;
 
   new PageTransition({
