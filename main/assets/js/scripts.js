@@ -3277,9 +3277,6 @@ function initContactMap(wrapper) {
       }
     },
     // additional options here
-  });
-  
-  new PageTransition({
     leaveAnimation: function(initContent, link, cb) {
       timeLeaveAnim = 0;
       Util.addClass(transPanel[0], 'page-trans-v1--is-visible');
