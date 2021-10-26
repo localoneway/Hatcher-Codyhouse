@@ -1857,10 +1857,10 @@ function initContactMap(wrapper) {
   function bindClick(element, link) {
     if(element.animating) return;
     element.animating = true;
-    element.link = link;
+    element.link = link; 
     // most of those links will be removed from the page
     unbindClickEvents(element);
-    loadPageContent(element);
+    loadPageContent(element); 
     // code that should run before the leaving animation
     if(element.options.beforeLeave) element.options.beforeLeave(element.link);
     // announce to SR new content is being loaded
@@ -1945,9 +1945,11 @@ function initContactMap(wrapper) {
     element.options.enterAnimation(element.containers[0], element.containers[1], element.link, function(){
       // move focus to new cntent
       Util.moveFocus(element.containers[1]);
+      // new content
+      var newContent = element.containers[1];
       // remove old content
       element.containers[0].remove();
-      if(element.options.afterEnter) element.options.afterEnter(element.containers[1], element.link);
+      if(element.options.afterEnter) element.options.afterEnter(newContent, element.link);
       pageTrInit(element); // bind click event to new anchor elements
       resetPageTransition(element);
       // announce to SR new content is available
@@ -1970,12 +1972,12 @@ function initContactMap(wrapper) {
 
   function initBrowserHistory(element) {
     setTimeout(function() {
+      // on load -> replace window history with page url
+      window.history.replaceState({path: document.location.href},'',document.location.href);
       window.addEventListener('popstate', function(event) {
         element.updateBrowserHistory = false;
         if(event.state && event.state.path) {
           bindClick(element, event.state.path);
-        } else {
-          bindClick(element, document.location);
         }
       });
     }, 10);
@@ -1990,12 +1992,11 @@ function initContactMap(wrapper) {
     afterEnter: false,
     loadFunction: false,
     srLoadingMessage: 'New content is being loaded',
-    srLoadedMessage: 'New content has been loaded'
+    srLoadedMessage: 'New content has been loaded' 
   };
 
   window.PageTransition = PageTransition;
 }());
-
 // File#: _1_parallax-image
 // Usage: codyhouse.co/license
 (function() {
