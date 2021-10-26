@@ -1134,8 +1134,6 @@ figure.snip1104.hover:before {
 }
 
 
-
-
 /*-- Page Transition - START --*/
 
 :root {
@@ -1425,7 +1423,9 @@ figure.snip1104.hover:before {
 
 /*-- Services Page --*/
 .in-service {text-transform: lowercase;}
-
+.services-bg{
+  background-image: url('/assets/img/gradient_studio_background.jpg');
+}
 
 
 
