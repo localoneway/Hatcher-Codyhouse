@@ -7,7 +7,7 @@
 //   xl: 90rem
 // );
 
-@import 'node_modules/codyhouse-framework/main/assets/css/base';
+@use 'base';
 
 /*! purgecss start ignore */
 @import 'custom-style';

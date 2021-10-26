@@ -3,6 +3,9 @@
 // Basic Style - Essential CSS rules and utility classes
 
 // --------------------------------
+// _base.scss file
+// import the basic style of the framework
+// ----- 👇 update this path according to your content structure
 
 @forward 'base/breakpoints';
 @forward 'base/mixins';
