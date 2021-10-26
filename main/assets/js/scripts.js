@@ -3300,19 +3300,39 @@ function initContactMap(wrapper) {
       if(slideshowEl.length > 0) {
         new Slideshow({
           element: slideshowEl[0],
-          navigation: true, // show dots navigation
+          navigation: false, // show dots navigation
+          autoplay : false, // enable/disable autoplay
+          autoplayInterval : false, // in milliseconds - default is 5000 (5s)
+          autoplayOnHover: false, // do not pause autoplay on hover
+          swipe : false // enable/disable swipe
+        }); 
+        new Slideshow({
+          element: slideshowEl[1],
+          navigation: false, // show dots navigation
+          autoplay : false, // enable/disable autoplay
+          autoplayInterval : false, // in milliseconds - default is 5000 (5s)
+          autoplayOnHover: false, // do not pause autoplay on hover
+          swipe : false // enable/disable swipe
+        }); 
+        new Slideshow({
+          element: slideshowEl[2],
+          navigation: false, // show dots navigation
           autoplay : false, // enable/disable autoplay
           autoplayInterval : false, // in milliseconds - default is 5000 (5s)
           autoplayOnHover: false, // do not pause autoplay on hover
           swipe : false // enable/disable swipe
         }); 
       }
-  
       // animated headline
       var headline = newContent.getElementsByClassName('text-anim');
       if(headline.length > 0) {
         new TextAnim(headline[0]);
       }
+      var modal = newContent.getElementsByClassName('modal');
+      if(modal.length > 0) {
+        new Modal(modal[0]);
+      }
+     
     },
     // additional options here
   });
