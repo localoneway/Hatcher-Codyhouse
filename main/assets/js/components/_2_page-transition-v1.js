@@ -79,17 +79,16 @@
         }); 
       }
       // animated headline
-      var headline = newContent.getElementsByClassName('text-anim');
-      if(headline.length > 0) {
-        new TextAnim(headline[0]);
+    var headline = newContent.getElementsByClassName('text-anim');
+    if(headline.length > 0) {
+      new TextAnim(headline);
       }
+      // Modal
       var modal = newContent.getElementsByClassName('modal');
       if(modal.length > 0) {
-        new Modal(modal[0]);
+        new Modal(modal);
       }
-     
     },
-    // additional options here
   });
 
   function animateLoader(duration, startValue, finalValue, cb) {
