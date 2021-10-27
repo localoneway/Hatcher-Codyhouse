@@ -8,11 +8,7 @@
 // );
 
 @use 'base';
-
-/*! purgecss start ignore */
-@import 'custom-style';
-@import 'components/**/*.scss';
-/*! purgecss end ignore */
+@use 'custom-style';
 
 html {
   scroll-behavior: smooth;
@@ -1130,7 +1126,7 @@ figure.snip1104.hover:before {
     background-size: contain;
     -webkit-transform: scale(1.5,1.5);
     transform: scale(1.5);
-   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
 }
 
 
