@@ -1,19 +1,24 @@
-// 👇 optional -> set custom breakpoints
-// $breakpoints: (
-//   xs: 32rem,
-//   sm: 48rem,
-//   md: 64rem,
-//   lg: 80rem,
-//   xl: 90rem
-// );
-
-@use 'base';
+@use 'base' with (
+  $breakpoints: (
+    'xs': 32rem,
+    'sm': 48rem,
+    'md': 64rem,
+    'lg': 80rem,
+    'xl': 90rem
+  ),
+  $grid-columns: 12
+);
 @use 'custom-style';
 
 html {
   scroll-behavior: smooth;
 }
 
+body{
+  width:100%;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
 
 a {color: #ffffff;}
 .offset-y {
@@ -904,7 +909,7 @@ figure.snip1104.hover:before {
   font-family: var(--font-primary);
   font-weight: 300;
   text-transform: capitalize;
-  @include fontSmooth;
+ // @include fontSmooth;
   transition: all 0.3s ease;
 }
 
@@ -989,6 +994,10 @@ figure.snip1104.hover:before {
 }
 
 /*-- Services Page -- */
+.sustainability-list ul{
+  display: inline;
+  list-style-type: circle;
+}
 .juanchos {
     padding-left: 45%;
     padding-right: 20%;
@@ -1959,9 +1968,4 @@ figure.snip1104 figcaption {top: 60%;  /* position the top  edge of the element 
 
 
 
-@include breakpoint(xl) {
- .services-top-bg{min-height: 350px;}
- .services-video-bg__media img {
-    width: 13%;
-}
-}
+

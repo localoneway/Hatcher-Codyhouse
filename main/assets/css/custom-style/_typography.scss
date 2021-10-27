@@ -8,7 +8,7 @@
 
 :root {
   // font family
-  --font-primary: 'Roboto Light, sans-serif;
+  --font-primary: Roboto Light, sans-serif;
   --font-secondary: good-times, sans-serif;
 
   // font size
@@ -85,7 +85,6 @@ h1, h2, h3, h4 {
 // --------------------------------
 
 // link style
-a, .link {}
 
 mark {
   background-color: alpha(var(--color-accent), 0.2);
