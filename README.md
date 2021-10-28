@@ -107,4 +107,4 @@ Explore the Editors:
 
 Explore our autocomplete extensions for VSCode, Sublime Text and Atom:
 
-[codyhouse.co/ds/docs/extensions](https://codyhouse.co/ds/docs/extensions)# Hatcher-Codyhouse
+[codyhouse.co/ds/docs/extensions](https://codyhouse.co/ds/docs/extensions)

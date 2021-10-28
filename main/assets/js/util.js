@@ -5,18 +5,24 @@ function Util () {};
 	class manipulation functions
 */
 Util.hasClass = function(el, className) {
-	return el.classList.contains(className);
+	if (el.classList) return el.classList.contains(className);
+	else return !!el.getAttribute('class').match(new RegExp('(\\s|^)' + className + '(\\s|$)'));
 };
 
 Util.addClass = function(el, className) {
 	var classList = className.split(' ');
- 	el.classList.add(classList[0]);
+ 	if (el.classList) el.classList.add(classList[0]);
+  else if (!Util.hasClass(el, classList[0])) el.setAttribute('class', el.getAttribute('class') +  " " + classList[0]);
  	if (classList.length > 1) Util.addClass(el, classList.slice(1).join(' '));
 };
 
 Util.removeClass = function(el, className) {
 	var classList = className.split(' ');
-	el.classList.remove(classList[0]);	
+	if (el.classList) el.classList.remove(classList[0]);	
+	else if(Util.hasClass(el, classList[0])) {
+		var reg = new RegExp('(\\s|^)' + classList[0] + '(\\s|$)');
+    el.setAttribute('class', el.getAttribute('class').replace(reg, ' '));
+	}
 	if (classList.length > 1) Util.removeClass(el, classList.slice(1).join(' '));
 };
 
@@ -37,8 +43,8 @@ Util.setAttributes = function(el, attrs) {
 Util.getChildrenByClassName = function(el, className) {
   var children = el.children,
     childrenByClass = [];
-  for (var i = 0; i < children.length; i++) {
-    if (Util.hasClass(children[i], className)) childrenByClass.push(children[i]);
+  for (var i = 0; i < el.children.length; i++) {
+    if (Util.hasClass(el.children[i], className)) childrenByClass.push(el.children[i]);
   }
   return childrenByClass;
 };

@@ -42,10 +42,10 @@
   function bindClick(element, link) {
     if(element.animating) return;
     element.animating = true;
-    element.link = link; 
+    element.link = link;
     // most of those links will be removed from the page
     unbindClickEvents(element);
-    loadPageContent(element); 
+    loadPageContent(element);
     // code that should run before the leaving animation
     if(element.options.beforeLeave) element.options.beforeLeave(element.link);
     // announce to SR new content is being loaded
@@ -177,7 +177,7 @@
     afterEnter: false,
     loadFunction: false,
     srLoadingMessage: 'New content is being loaded',
-    srLoadedMessage: 'New content has been loaded' 
+    srLoadedMessage: 'New content has been loaded'
   };
 
   window.PageTransition = PageTransition;

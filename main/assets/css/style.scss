@@ -1,24 +1,23 @@
-@use 'base' with (
-  $breakpoints: (
-    'xs': 32rem,
-    'sm': 48rem,
-    'md': 64rem,
-    'lg': 80rem,
-    'xl': 90rem
-  ),
-  $grid-columns: 12
-);
-@use 'custom-style';
+// 👇 optional -> set custom breakpoints
+// $breakpoints: (
+//   xs: 32rem,
+//   sm: 48rem,
+//   md: 64rem,
+//   lg: 80rem,
+//   xl: 90rem
+// );
+
+@import 'node_modules/codyhouse-framework/main/assets/css/base';
+
+/*! purgecss start ignore */
+@import 'custom-style';
+@import 'components/**/*.scss';
+/*! purgecss end ignore */
 
 html {
   scroll-behavior: smooth;
 }
 
-body{
-  width:100%;
-  overflow-x:hidden;
-  overflow-y:hidden;
-}
 
 a {color: #ffffff;}
 .offset-y {
@@ -151,6 +150,13 @@ video {max-width: auto !important;}
 .anim-menu-btn--state-b .anim-menu-btn__icon--doner::after {
   width: 50%;
 }
+.anim-menu-btn--state-b .anim-menu-btn__icon--doner::before {
+
+}
+.anim-menu-btn--state-b .anim-menu-btn__icon--doner::after {
+
+}
+
 
 .anim-menu-btn__icon {
   position: relative;
@@ -401,7 +407,7 @@ animation: services-gradient 1s ease-in-out;
 }
 
 /*-- Weird Updates Gradient Start --*/
-
+.tile-h2{}
 .top-sides-to-bottom, .top-sides-to-bottom-team {
   position: relative;
   border-top: 1px solid white;
@@ -474,6 +480,8 @@ animation: services-gradient 1s ease-in-out;
  text-decoration: none;
 }
 
+
+.services-square{}
 
 .video-h2
 {
@@ -909,7 +917,7 @@ figure.snip1104.hover:before {
   font-family: var(--font-primary);
   font-weight: 300;
   text-transform: capitalize;
- // @include fontSmooth;
+  @include fontSmooth;
   transition: all 0.3s ease;
 }
 
@@ -986,7 +994,7 @@ figure.snip1104.hover:before {
 /* -- Team page -- */
 
 .js .slideshow__item{height: 100%;}
-
+.team_location{}
 
 .box_shadow {
   -webkit-box-shadow: 0px 25px 25px 0px #0d0d0d; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
@@ -994,10 +1002,48 @@ figure.snip1104.hover:before {
 }
 
 /*-- Services Page -- */
-.sustainability-list ul{
-  display: inline;
-  list-style-type: circle;
+ul.sustainability-list {
+    list-style: none;
+    text-align: left;
 }
+
+ul.sustainability-list > li::before {
+    content: "–";
+    position: absolute;
+    margin-left: -1.1em;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: -6px;
+  }
+  .white-sq {
+      border: 5px solid #fff;
+
+  }
+
+
+  .left-gradient-border {
+  /* gradient shining border */
+  border-style: solid;
+  border-width: 5px;
+  border-image: linear-gradient(to left, rgba(62, 203, 52, 1) 1%, rgba(37, 122, 31, 1) 50%, rgba(13, 13, 13, 1) 100%)
+                100% 0 100% 0/5px 0 5px 0 stretch;
+
+  /* other demo stuff */
+
+  line-height: 50px;
+}
+.right-gradient-border {
+/* gradient shining border */
+border-style: solid;
+border-width: 5px;
+border-image: linear-gradient(to right, rgba(1, 159, 198, 1) 1%, rgba(1, 159, 198, 1) 50%, rgba(13, 13, 13, 1) 100%)
+              100% 0 100% 0/5px 0 5px 0 stretch;
+
+/* other demo stuff */
+
+line-height: 50px;
+}
+
 .juanchos {
     padding-left: 45%;
     padding-right: 20%;
@@ -1005,7 +1051,7 @@ figure.snip1104.hover:before {
 .juanchos-left{padding-right: 45%;
   padding-left: 20%;}
 .services-text-md{font-size: 1.1em; font-weight: light;}
-
+.special-heading {}
 .services-video-bg__media {
     overflow: hidden;
     z-index: -2;
@@ -1135,8 +1181,10 @@ figure.snip1104.hover:before {
     background-size: contain;
     -webkit-transform: scale(1.5,1.5);
     transform: scale(1.5);
-   transition: all 0.3s ease-in-out;
+   -webkit-transition: all 0.3s ease-in-out;
 }
+
+
 
 
 /*-- Page Transition - START --*/
@@ -1428,9 +1476,7 @@ figure.snip1104.hover:before {
 
 /*-- Services Page --*/
 .in-service {text-transform: lowercase;}
-.services-bg{
-  background-image: url('/assets/img/gradient_studio_background.jpg');
-}
+.services-page-rotating{}
 
 
 
@@ -1887,6 +1933,30 @@ Main Components
 /*--- Mobile Stylings --*/
 
 @media only screen and (max-width: 32rem) {
+.mobile-green-gradient{max-width: 100%;
+  padding: 1rem;
+  color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-image:
+    linear-gradient(
+      to top,
+      rgba(62, 203, 52, 1),
+      rgba(13, 13, 13, 0)
+    ) 1 100%;}
+
+    .mobile-blue-gradient{max-width: 100%;
+      padding: 1rem;
+      color: white;
+      border-width: 5px;
+      border-style: solid;
+      border-image:
+        linear-gradient(
+          to bottom,
+          rgba(1, 159, 198, 1),
+          rgba(13, 13, 13, 0)
+        ) 1 100%;}
+
 .blue-arrow{ background-position: left center;}
 .gold-arrow{ background-position: right center;}
 .services-content{padding-left: var(--space-xl); padding-right: var(--space-xl);}
@@ -1928,7 +1998,6 @@ figure.snip1104 figcaption {top: 60%;  /* position the top  edge of the element 
   .incubation-top{padding-right: 0; padding-top: 10px; padding-bottom: 10px; padding-left: 0;}
 }
 
-
 @media only screen and (max-width: 48rem) and (min-width: 32rem){
 .juanchos{padding-left: 0%; padding-right: 25%;}
 .juanchos-left{padding-right: 0%; padding-left: 25%;}
@@ -1937,35 +2006,51 @@ figure.snip1104 figcaption {top: 60%;  /* position the top  edge of the element 
    width: 25%;
 }
 .blue-arrow{width: 150%;}
+.arrows{min-height: 250px;}
+.services-believe-padding{padding-left: 15%; padding-right: 15%;}
+.services-mission-padding {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 5%;
+}
+.sustainability-padding{padding-left: 15%; padding-right: 15%;}
 }
 
 @media only screen and (max-width: 64rem) and (min-width: 48rem)  {
-  .juanchos{padding-left: 25%;}
-  .juanchos-left{padding-right: 25%;}
-
-
+  .arrows{min-height: 250px;}
+  .services-believe-padding{padding-left: 15%; padding-right: 15%;}
+  .services-mission-padding {
+      padding-left: 25%;
+      padding-right: 25%;
+      padding-top: 5%;
+  }
+  .sustainability-padding{padding-left: 10%; padding-right: 10%;}
 }
 
 @media only screen and (max-width: 80rem) and (min-width: 64rem)  {
-  .juanchos {
-      padding-left: 25%;
-      padding-right: 20%;
-  }
-  .juanchos-left{padding-right: 25%;
-    padding-left: 20%;}
+  .services-top-bg{min-height: 350px;}
+  .services-video-bg__media img {
+     width: 13%;
+ }
+   .arrows{min-height: 250px;}
+   .services-believe-padding{padding-left: 15%; padding-right: 15%;}
+   .services-mission-padding {
+       padding-left: 25%;
+       padding-right: 25%;
+   }
+   .sustainability-padding{padding-left: 15%; padding-right: 15%;}
+ }
 
-}
-@media only screen and (max-width: 90rem) and (min-width: 80rem)  {
-  .juanchos {
-      padding-left: 45%;
-      padding-right: 20%;
-  }
-  .juanchos-left{padding-right: 45%;
-    padding-left: 20%;}
+@media only screen and (max-width: 1000rem) and (min-width: 80rem)  {
+  .services-top-bg{min-height: 350px;}
+  .services-video-bg__media img {
+     width: 13%;
+ }
+   .sustainability-padding, .services-believe-padding {padding-left: 25%; padding-right: 25%;}
 
-
-}
-
-
-
-
+   .services-mission-padding {
+       padding-left: 35%;
+       padding-right: 35%;
+   }
+   .arrows{min-height: 250px;}
+ }

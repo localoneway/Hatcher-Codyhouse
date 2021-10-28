@@ -1,79 +1,60 @@
-@use '../base' as *;
-
 :root {
-  // radius
-  --radius: 0.25em; // border radius base size
-  // 👇 uncomment to modify default radius values
-  // --radius-sm: calc(var(--radius)/2);
-  // --radius-md: var(--radius);
-  // --radius-lg: calc(var(--radius)*2);
+  // font family
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: good-times, sans-serif;
 
-  // box shadow - 👇 uncomment to modify default shadow values
-  // --shadow-xs:  0 0.1px 0.3px rgba(0, 0, 0, 0.06),
-  //               0 1px 2px rgba(0, 0, 0, 0.12);
-  // --shadow-sm:  0 0.3px 0.4px rgba(0, 0, 0, 0.025),
-  //               0 0.9px 1.5px rgba(0, 0, 0, 0.05), 
-  //               0 3.5px 6px rgba(0, 0, 0, 0.1);
-  // --shadow-md:  0 0.9px 1.5px rgba(0, 0, 0, 0.03), 
-  //               0 3.1px 5.5px rgba(0, 0, 0, 0.08), 
-  //               0 14px 25px rgba(0, 0, 0, 0.12);
-  // --shadow-lg:  0 1.2px 1.9px -1px rgba(0, 0, 0, 0.014), 
-  //               0 3.3px 5.3px -1px rgba(0, 0, 0, 0.038), 
-  //               0 8.5px 12.7px -1px rgba(0, 0, 0, 0.085), 
-  //               0 30px 42px -1px rgba(0, 0, 0, 0.15);
-  // --shadow-xl:  0 1.5px 2.1px -6px rgba(0, 0, 0, 0.012), 
-  //               0 3.6px 5.2px -6px rgba(0, 0, 0, 0.035), 
-  //               0 7.3px 10.6px -6px rgba(0, 0, 0, 0.07), 
-  //               0 16.2px 21.9px -6px rgba(0, 0, 0, 0.117), 
-  //               0 46px 60px -6px rgba(0, 0, 0, 0.2);
+  // font size
+  --text-base-size: 1em; // body font-size
+  --text-scale-ratio: 1.2; // multiplier used to generate the type scale values 👇
+
+  // line-height
+  --body-line-height: 1.4;
+  --heading-line-height: 1.2;
+
+  // capital letters - used in combo with the lhCrop mixin
+  --font-primary-capital-letter: 1;
+  --font-secondary-capital-letter: 1;
+
+  // unit - don't modify unless you want to change the typography unit (e.g., from Em to Rem units)
+  --text-unit: 1em; // if not Em units → --text-unit: var(--text-base-size);
 }
 
-// --------------------------------
+:root, * {
+  // type scale
+  --text-xs: calc((var(--text-unit) / var(--text-scale-ratio)) / var(--text-scale-ratio));
+  --text-sm: calc(var(--text-xs) * var(--text-scale-ratio));
+  --text-md: calc(var(--text-sm) * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-lg: calc(var(--text-md) * var(--text-scale-ratio));
+  --text-xl: calc(var(--text-lg) * var(--text-scale-ratio));
+  --text-xxl: calc(var(--text-xl) * var(--text-scale-ratio));
+  --text-xxxl: calc(var(--text-xxl) * var(--text-scale-ratio));
+  --text-xxxxl: calc(var(--text-xxxl) * var(--text-scale-ratio));
+}
 
-// (START) Global editor code https://codyhouse.co/ds/globals/shared-styles
-
-// --------------------------------
-
-.hover\:reduce-opacity {
-  opacity: 1;
-  transition: all 0.3s ease;
-
-  &:hover {
-    opacity: 0.8;
+@supports(--css: variables) {
+  @include breakpoint(md) {
+    :root {
+      --text-base-size: 1.25em;
+      --text-scale-ratio: 1.25;
+    }
   }
 }
 
-.hover\:scale {
-  transition: transform 0.3s var(--ease-out-back);
-
-  &:hover {
-    transform: scale(1.1);
-  }
+body {
+  font-family: var(--font-primary);
 }
 
-.hover\:elevate {
-  box-shadow: var(--shadow-sm);
-  transition: all 0.3s ease;
-
-  &:hover {
-    box-shadow: var(--shadow-md);
-  }
+h1, h2, h3, h4 {
+  font-family: var(--font-primary);
+  font-weight: 700;
 }
 
-// text styles
-.link-subtle {
-  color: inherit;
-  cursor: pointer;
-  text-decoration: none;
-  transition: all 0.2s ease;
+// font family
+.font-primary { font-family: var(--font-primary); }
+.font-secondary { font-family: var(--font-secondary); }
 
-  &:hover {
-    color: var(--color-primary);
-  }
-}
-
-// --------------------------------
-
-// (END) Global editor code
-
-// --------------------------------
+// gradient
+.color-gradient-primary-top { background-image: linear-gradient(0deg, var(--gradient-primary-stop-1), var(--gradient-primary-stop-2)); }
+.color-gradient-primary-right { background-image: linear-gradient(90deg, var(--gradient-primary-stop-1), var(--gradient-primary-stop-2)); }
+.color-gradient-primary-bottom { background-image: linear-gradient(180deg, var(--gradient-primary-stop-1), var(--gradient-primary-stop-2)); }
+.color-gradient-primary-left { background-image: linear-gradient(270deg, var(--gradient-primary-stop-1), var(--gradient-primary-stop-2)); }
