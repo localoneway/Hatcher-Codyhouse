@@ -224,7 +224,141 @@
         </div>
       </div>
     </section>
+  </div><!--END OF onscreen MAIN CONTENT-->
+  <div class="modal modal--animate-scale flex flex-center bg-contrast-lower bg-opacity-90% padding-md js-modal" id="modal-form" data-modal-prevent-scroll="body">
+    <div class="modal__content width-100% max-width-md max-height-100% overflow-auto padding-md bg radius-md shadow-md" role="alertdialog" aria-labelledby="modal-form-title" aria-describedby="modal-form-description">
+      <!--FORM START-->
+  
+      <form method="POST" data-netlify="true" name="team-page-form" id="team-page-form" class="form-template-v3">
+  <fieldset class="margin-bottom-md padding-bottom-md border-bottom">
+    <div class="text-component margin-bottom-md text-center">
+      <h2>Contact Hatcher</h2>
+  
+    </div>
+  
+    <div class="margin-bottom-xxxs">
+      <div class="grid gap-xxs items-center@md">
+        <div class="col-4@md">
+          <label class="form-label" for="firstName">Name</label>
+        </div>
+  
+        <div class="col-8@md">
+          <input class="form-control width-100%" type="text" name="firstName" id="firstName" required>
+        </div>
+      </div>
+    </div>
+  
+    <div class="margin-bottom-xxxs">
+      <div class="grid gap-xxs items-center@md">
+        <div class="col-4@md">
+          <label class="form-label" for="inputEmail">Email</label>
+        </div>
+  
+        <div class="col-8@md">
+          <input class="form-control width-100%" type="email" name="inputEmail" id="inputEmail" required>
+        </div>
+      </div>
+    </div>
+  
+    <div class="margin-bottom-xxxs">
+      <div class="grid gap-xxs items-center@md">
+        <div class="col-4@md">
+          <label class="form-label" for="lastName">Phone</label>
+        </div>
+  
+        <div class="col-8@md">
+          <input class="form-control width-100%" type="text" name="phoneNumber" id="phoneNumber" required>
+        </div>
+      </div>
+    </div>
+  
+    <div class="margin-bottom-xxxs">
+      <div class="grid gap-xxs items-center@md">
+        <div class="col-4@md">
+          <label class="form-label" for="textarea">Reason for contacting</label>
+        </div>
+  
+        <div class="col-8@md">
+          <textarea class="form-control width-100%" name="textarea" id="textarea" required></textarea>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+  
+  
+  <fieldset class="margin-bottom-md padding-bottom-md border-bottom">
+    <div class="margin-bottom-xxxs">
+      <div class="grid gap-xxs items-center@md">
+        <div class="col-4@md">
+          <label class="form-label" for="lastName">Attach a Resume</label>
+        </div>
+        <div class="col-8@md">
+          <div class="file-upload inline-block">
+            <label for="upload1" class="file-upload__label btn btn--subtle">
+              <span class="file-upload__text file-upload__text--has-max-width">Upload resume</span>
+            </label>
+            <input type="file" class="file-upload__input" name="upload1" id="upload1">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="margin-bottom-xxxs">
+      <div class="grid gap-xxs items-center@md">
+        <div class="col-4@md">
+          <label class="form-label" for="website">Website (optional)</label>
+        </div>
+        <div class="col-8@md">
+          <input class="form-control width-100%" type="text" name="website" id="website">
+        </div>
+      </div>
+    </div>
+  
+    <div class="margin-bottom-xxxs">
+      <div class="grid gap-xxs items-center@md">
+        <div class="col-4@md">
+          <label class="form-label" for="lastName">Dream job title (optional)</label>
+        </div>
+  
+        <div class="col-8@md">
+          <input class="form-control width-100%" type="text" name="dreamJob" id="dreamJob">
+        </div>
+      </div>
+    </div>
+  
+  
+    <div class="margin-bottom-xxxs">
+      <div class="grid gap-xxs items-center@md">
+        <div class="col-4@md">
+          <label class="form-label" for="textarea">Notes to the Hatcher team</label>
+        </div>
+  
+        <div class="col-8@md">
+          <textarea class="form-control width-100%" name="notes" id="notes" required></textarea>
+        </div>
+      </div>
+    </div>
+  
+  
+  </fieldset>
+  <div class="text-right">
+    <button class="btn btn--primary">Submit</button>
   </div>
+  <div class="text-component">
+    <p class="text-xs color-contrast-medium">We respect your privacy - <a href="https://www.termsfeed.com/live/6b875575-f7ec-488a-8d71-b2ab30972009" target="_blank" class="color-accent">read more.</a></p>
+  </div></form>
+    </div>
+  
+    <button class="reset modal__close-btn modal__close-btn--outer  js-modal__close js-tab-focus">
+      <svg class="icon icon--sm" viewBox="0 0 24 24">
+        <title>Close modal window</title>
+        <g fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="3" x2="21" y2="21" />
+          <line x1="21" y1="3" x2="3" y2="21" />
+        </g>
+      </svg>
+    </button>
+  </div>
+  
       <div class="page-trans-v1" aria-hidden="true">
         <div class="page-trans-v1__overlay bg-accent"></div>
     
