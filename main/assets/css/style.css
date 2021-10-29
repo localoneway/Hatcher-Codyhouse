@@ -4482,12 +4482,14 @@ html:not(.js) .no-js\:is-hidden {
 .user-select-none {
   -webkit-user-select: none;
      -moz-user-select: none;
+      -ms-user-select: none;
           user-select: none;
 }
 
 .user-select-all {
   -webkit-user-select: all;
      -moz-user-select: all;
+      -ms-user-select: all;
           user-select: all;
 }
 
@@ -5379,7 +5381,8 @@ html:not(.js) .no-js\:is-hidden {
 }
 
 .overscroll-contain {
-  overscroll-behavior: contain;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: contain;
 }
 
 .scroll-smooth {
@@ -7671,7 +7674,8 @@ html:not(.js) .no-js\:is-hidden {
   }
 
   .overscroll-contain\@xs {
-    overscroll-behavior: contain;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
   }
 
   .visible\@xs {
@@ -9166,7 +9170,8 @@ html:not(.js) .no-js\:is-hidden {
   }
 
   .overscroll-contain\@sm {
-    overscroll-behavior: contain;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
   }
 
   .visible\@sm {
@@ -10661,7 +10666,8 @@ html:not(.js) .no-js\:is-hidden {
   }
 
   .overscroll-contain\@md {
-    overscroll-behavior: contain;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
   }
 
   .visible\@md {
@@ -12156,7 +12162,8 @@ html:not(.js) .no-js\:is-hidden {
   }
 
   .overscroll-contain\@lg {
-    overscroll-behavior: contain;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
   }
 
   .visible\@lg {
@@ -13651,7 +13658,8 @@ html:not(.js) .no-js\:is-hidden {
   }
 
   .overscroll-contain\@xl {
-    overscroll-behavior: contain;
+    -ms-scroll-chaining: none;
+        overscroll-behavior: contain;
   }
 
   .visible\@xl {
@@ -14202,6 +14210,10 @@ mark {
   transition: all 0.2s ease;
 }
 .form-control::-moz-placeholder {
+  opacity: 1;
+  color: var(--color-contrast-low);
+}
+.form-control:-ms-input-placeholder {
   opacity: 1;
   color: var(--color-contrast-low);
 }
@@ -16024,6 +16036,7 @@ Usage: codyhouse.co/license
 .js .slideshow[data-swipe=on] .slideshow__content {
   -webkit-user-select: none;
      -moz-user-select: none;
+      -ms-user-select: none;
           user-select: none;
 }
 .js .slideshow[data-swipe=on] .slideshow__content img {
