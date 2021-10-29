@@ -17180,6 +17180,7 @@ figure.snip1104.hover:before {
   -o-object-position: right center;
      object-position: right center;
   height: 100%;
+  width: 100%;
 }
 
 .parent > * {
