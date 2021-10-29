@@ -1,4 +1,6 @@
-/* --------------------------------
+@use '../base' as *;
+
+/* -------------------------------- 
 
 File#: _2_slideshow
 Title: Slideshow
@@ -15,7 +17,7 @@ Usage: codyhouse.co/license
   --slideshow-prx-transition-duration: 0.5s; // parallax effect transition duration
 
   // controls
-  --slideshow-btn-width: 1.6em;
+  --slideshow-btn-width: 1.6em; 
   --slideshow-btn-height: 3.2em;
   --slideshow-btn-icon-size: 1.6em;
   --slideshow-btn-offset: var(--space-xs); // gap between button and slideshow edges
@@ -49,17 +51,17 @@ Usage: codyhouse.co/license
 }
 
 // set a fixed ratio for the slides
-.slideshow--ratio-16\:9 .slideshow__item {
+.slideshow--ratio-16\:9 .slideshow__item { 
   height: 0;
   padding-bottom: 56.25%; // 16:9 aspect ratio
 }
 
-.slideshow--ratio-4\:3 .slideshow__item {
+.slideshow--ratio-4\:3 .slideshow__item { 
   height: 0;
   padding-bottom: 75%; // 4:3 aspect ratio
 }
 
-.slideshow--ratio-1\:1 .slideshow__item {
+.slideshow--ratio-1\:1 .slideshow__item { 
   height: 0;
   padding-bottom: 100%; // 1:1 aspect ratio
 }
@@ -98,7 +100,7 @@ Usage: codyhouse.co/license
     opacity: 0;
     transition: opacity 0s var(--slideshow-fade-transition-duration), visibility 0s var(--slideshow-fade-transition-duration);
   }
-
+  
   .slideshow--transition-fade .slideshow__item--selected {
     opacity: 1;
     transition: opacity var(--slideshow-fade-transition-duration);
@@ -111,40 +113,40 @@ Usage: codyhouse.co/license
     animation-duration: var(--slideshow-slide-transition-duration);
     animation-fill-mode: forwards;
     animation-timing-function: var(--ease-out);
-
-    > * { // hide content of not-visible items so that they are not focusable
+  
+    > * { // hide content of not-visible items so that they are not focusable 
       visibility: hidden;
     }
-  }
-
-  .slideshow--transition-slide .slideshow__item--selected > * { // show content of selected item
+  } 
+  
+  .slideshow--transition-slide .slideshow__item--selected > * { // show content of selected item 
     visibility: visible;
   }
-
+  
   .slideshow--transition-slide .slideshow__item--slide-in-left { // visible item - enter from left to right
     animation-name: slide-in-left;
   }
-
+  
   .slideshow--transition-slide .slideshow__item--slide-in-right { // visible item - enter from right to left
     animation-name: slide-in-right;
   }
-
+  
   .slideshow--transition-slide .slideshow__item--slide-out-left { // leaving item - leave from left to right
     animation-name: slide-out-left;
   }
-
+  
   .slideshow--transition-slide .slideshow__item--slide-out-right { // leaving item - leave from right to left
     animation-name: slide-out-right;
   }
-
-  .slideshow--transition-slide .slideshow__item--slide-out-left,
+  
+  .slideshow--transition-slide .slideshow__item--slide-out-left, 
   .slideshow--transition-slide .slideshow__item--slide-out-right {
     z-index: 2;
-
+  
     &.slideshow__item--selected {
       z-index: 3; // fix bug on browsers not supporting CSS animations
     }
-
+  
     > * {
       visibility: visible;
     }
@@ -191,46 +193,46 @@ Usage: codyhouse.co/license
   }
 }
 
-// parallax animation
+// parallax animation 
 .js {
   .slideshow--transition-prx .slideshow__item {
     animation-duration: var(--slideshow-prx-transition-duration);
     animation-fill-mode: forwards;
     animation-timing-function: var(--ease-out);
-
-    > * { // hide content of not-visible items so that they are not focusable
+  
+    > * { // hide content of not-visible items so that they are not focusable 
       visibility: hidden;
     }
-  }
-
-  .slideshow--transition-prx .slideshow__item--selected > * { // show content of selected item
+  } 
+  
+  .slideshow--transition-prx .slideshow__item--selected > * { // show content of selected item 
     visibility: visible;
   }
-
+  
   .slideshow--transition-prx .slideshow__item--prx-in-left { // visible item - enter from left to right
     animation-name: prx-in-left;
   }
-
+  
   .slideshow--transition-prx .slideshow__item--prx-in-right { // visible item - enter from right to left
     animation-name: prx-in-right;
   }
-
+  
   .slideshow--transition-prx .slideshow__item--prx-out-left { // leaving item - leave from left to right
     animation-name: prx-out-left;
   }
-
+  
   .slideshow--transition-prx .slideshow__item--prx-out-right { // leaving item - leave from right to left
     animation-name: prx-out-right;
   }
-
-  .slideshow--transition-prx .slideshow__item--prx-out-left,
+  
+  .slideshow--transition-prx .slideshow__item--prx-out-left, 
   .slideshow--transition-prx .slideshow__item--prx-out-right {
     z-index: 2;
-
+  
     &.slideshow__item--selected {
       z-index: 3; // fix bug on browsers not supporting CSS animations
     }
-
+  
     > * {
       visibility: visible;
     }
@@ -316,11 +318,11 @@ Usage: codyhouse.co/license
     z-index: 4;
     top: 50%;
     transform: translateY(-50%);
-
+  
     &:first-of-type {
       left: var(--slideshow-btn-offset);
     }
-
+  
     &:last-of-type {
       right: var(--slideshow-btn-offset);
     }
@@ -365,7 +367,7 @@ Usage: codyhouse.co/license
 
   @supports (grid-area: auto) {
     background-color: transparent; // button color
-
+  
     .icon {
       color: var(--color-contrast-higher); // icon color
     }
@@ -416,10 +418,10 @@ Usage: codyhouse.co/license
       transform: scale(0);
       transition: 0.3s;
     }
-
+    
     &:focus {
       outline: none;
-
+      
       &::before {
         opacity: 1;
         transform: scale(1);

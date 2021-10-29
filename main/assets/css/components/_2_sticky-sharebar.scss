@@ -1,3 +1,6 @@
+@use '../base' as *;
+@use '_1_social-sharing.scss' as *;
+
 /* -------------------------------- 
 
 File#: _2_sticky-sharebar
@@ -15,7 +18,7 @@ Usage: codyhouse.co/license
   top: 0;
   right: var(--space-md);
   pointer-events: none;
-  z-index: var(--zindex-fixed-element);
+  z-index: var(--z-index-fixed-element, 10); 
 
   transition: visibility 0s .3s, opacity .3s, transform .3s var(--ease-in-out);
   transform: translateX(10%);
@@ -33,31 +36,32 @@ Usage: codyhouse.co/license
 
 .sticky-sharebar__list {
   pointer-events: auto;
-  background-color: alpha(var(--color-bg), 0.95);
+  background-color: alpha(var(--color-bg-light), 0.95);
   backdrop-filter: blur(5px);
   border-radius: 50em;
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--inner-glow), var(--shadow-md);
   padding: 4px;
 }
 
 .sticky-sharebar__btn {
+  --size: 2.2em;
+  width: var(--size);
+  height: var(--size);
+
   position: relative;
-  display: block; // fallback
   display: flex;
-  width: 2.2em;
-  height: 2.2em;
   border-radius: 50%;
   
   .icon {
     position: relative;
-    color: var(--color-contrast-medium); // icon color
+    color: var(--color-contrast-medium); /* icon color */
     display: block;
     margin: auto;
     z-index: 2;
     transition: color .2s;
   }
 
-  &::before {
+  &::before { /* animated bg */
     content: '';
     position: absolute;
     top: 0;
@@ -66,9 +70,9 @@ Usage: codyhouse.co/license
     height: 100%;
     z-index: 1;
     border-radius: inherit;
-    background-color: var(--color-contrast-lower);
+    background-color: alpha(var(--color-contrast-higher), 0.1);
     transform: scale(0);
-    transition: transform .3s var(--ease-out);
+    transition: transform .2s var(--ease-out);
   }
 
   &:hover {

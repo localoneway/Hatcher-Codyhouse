@@ -1,3 +1,5 @@
+@use '../base' as *;
+
 /* -------------------------------- 
 
 File#: _1_social-sharing
@@ -10,25 +12,31 @@ Usage: codyhouse.co/license
 .sharebar {}
 
 .sharebar__btn {
-  display: inline-block;
-  padding: var(--space-sm);
-  background: var(--color-contrast-lower);
+  --size: 60px;
+  width: var(--size);
+  height: var(--size);
+  display: flex;
+
+  background: alpha(var(--color-contrast-higher), 0.1);
   border-radius: 50%;
+
   transition: .2s;
 
   .icon {
+    --size: 24px;
     display: block;
+    margin: auto;
     color: var(--color-contrast-high);
+
     transition: color .2s;
-    font-size: 1.2em;
   }
 
   &:hover {
-    background-color: var(--color-bg);
+    background-color: alpha(var(--color-contrast-higher), 0.075);
     box-shadow: var(--shadow-sm);
 
     .icon {
-      color: var(--color-primary);
+      color: var(--color-contrast-higher);
     }
   }
 }

@@ -1,3 +1,5 @@
+@use '../base' as *;
+
 /* -------------------------------- 
 
 File#: _1_author
@@ -75,22 +77,25 @@ Usage: codyhouse.co/license
 }
 
 .author__social { // social button
-  display: inline-block;
-  padding: var(--space-xs);
-  background: var(--color-contrast-lower);
+  --size: 40px;
+  width: var(--size);
+  height: var(--size);
+  display: flex;
+
+  background-color: alpha(var(--color-contrast-higher), 0.1);
   border-radius: 50%;
   transition: .2s;
 
   .icon {
+    --size: 16px;
     display: block;
-    font-size: 16px; // icon size
-    color: var(--color-contrast-high);
+    margin: auto;
+    color: var(--color-contrast-higher);
     transition: color .2s;
   }
 
   &:hover {
-    background-color: var(--color-bg);
-    box-shadow: var(--shadow-sm);
+    background-color: alpha(var(--color-contrast-higher), 0.075);
 
     .icon {
       color: var(--color-primary);

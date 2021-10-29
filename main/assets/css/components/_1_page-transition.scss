@@ -1,3 +1,5 @@
+@use '../base' as *;
+
 /* -------------------------------- 
 
 File#: _1_page-transition
@@ -10,3 +12,4 @@ Usage: codyhouse.co/license
 .js-page-trans__content:focus {
   outline: none;
 }
+
