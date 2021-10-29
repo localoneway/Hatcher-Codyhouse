@@ -16424,7 +16424,7 @@ h1::first-letter {
   margin-right: auto;
 }
 
-video {
+.video {
   max-width: auto !important;
 }
 
@@ -17179,6 +17179,7 @@ figure.snip1104.hover:before {
      object-fit: cover;
   -o-object-position: right center;
      object-position: right center;
+  height: 100%;
 }
 
 .parent > * {

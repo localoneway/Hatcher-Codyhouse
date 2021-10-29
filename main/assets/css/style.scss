@@ -40,7 +40,7 @@ h1::first-letter {text-transform: capitalize;}
     margin-right: auto;
 }
 
-video {max-width: auto !important;}
+.video {max-width: auto !important;}
 
 .btn--primary {
     background: var(--color-primary);
@@ -747,7 +747,7 @@ figure.snip1104.hover:before {
     
 }
 
-.video-bg__media video{object-fit: cover; object-position: right center;} 
+.video-bg__media video{object-fit: cover; object-position: right center; height: 100%;} 
 
 
 .parent > * {
