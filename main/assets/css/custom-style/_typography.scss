@@ -8,10 +8,11 @@
 
 :root {
   // font family
-  --font-primary: system-ui, sans-serif;
+  --font-primary: roboto, sans-serif;
+  --font-secondary: good-times, sans-serif;
 
   // font size
-  --text-base-size: 1rem; // body font-size
+  --text-base-size: 1em; // body font-size
   --text-scale-ratio: 1.2; // multiplier used to generate the type scale values 👇
   
   // line-height
@@ -20,9 +21,10 @@
   
   // capital letters - used in combo with the lhCrop mixin
   --font-primary-capital-letter: 1;
+  --font-secondary-capital-letter: 1;
 
   // unit - don't modify unless you want to change the typography unit (e.g., from Rem to Em units)
-  --text-unit: var(--text-base-size); // if Em units → --text-unit: 1em;
+  --text-unit: 1em; // if Em units → --text-unit: 1em;
 }
 
 :root, * {
@@ -37,6 +39,44 @@
   --text-xxxxl: calc(var(--text-xxxl) * var(--text-scale-ratio));
 }
 
+
+@include breakpoint(md) {
+  :root {
+    --text-base-size: 1.1em;
+    --text-scale-ratio: 1.1;
+  }
+}
+
+body {
+  font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-primary);
+  --heading-font-weight: 700;
+}
+
+// font family
+.font-primary { font-family: var(--font-primary); }
+.font-secondary { font-family: var(--font-secondary); }
+
+// color
+.color-b3b3b3-darker { color: alpha(var(--color-b3b3b3-darker), var(--color-o, 1)); }
+.color-b3b3b3-dark { color: alpha(var(--color-b3b3b3-dark), var(--color-o, 1)); }
+.color-b3b3b3 { color: alpha(var(--color-b3b3b3), var(--color-o, 1)); }
+.color-b3b3b3-light { color: alpha(var(--color-b3b3b3-light), var(--color-o, 1)); }
+.color-b3b3b3-lighter { color: alpha(var(--color-b3b3b3-lighter), var(--color-o, 1)); }
+.color-green-accent-darker { color: alpha(var(--color-green-accent-darker), var(--color-o, 1)); }
+.color-green-accent-dark { color: alpha(var(--color-green-accent-dark), var(--color-o, 1)); }
+.color-green-accent { color: alpha(var(--color-green-accent), var(--color-o, 1)); }
+.color-green-accent-light { color: alpha(var(--color-green-accent-light), var(--color-o, 1)); }
+.color-green-accent-lighter { color: alpha(var(--color-green-accent-lighter), var(--color-o, 1)); }
+
+// gradient
+.color-gradient-primary-top { background-image: linear-gradient(0deg, var(--gradient-primary-stop-1), var(--gradient-primary-stop-2)); }
+.color-gradient-primary-right { background-image: linear-gradient(90deg, var(--gradient-primary-stop-1), var(--gradient-primary-stop-2)); }
+.color-gradient-primary-bottom { background-image: linear-gradient(180deg, var(--gradient-primary-stop-1), var(--gradient-primary-stop-2)); }
+.color-gradient-primary-left { background-image: linear-gradient(270deg, var(--gradient-primary-stop-1), var(--gradient-primary-stop-2)); }
 @include breakpoint(md) {
   :root {
     --text-base-size: 1.25rem;
