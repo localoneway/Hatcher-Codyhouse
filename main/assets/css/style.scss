@@ -775,7 +775,15 @@ figure.snip1104.hover:before {
 .fixed-bg-bar-contact{position: absolute; z-index: -1;}
 
 
-.nav-logo {width: 100%;}
+.nav-logo {
+  width: 100%;
+  display: block;
+  height: 75px;
+}
+
+.nav-logo-nobg {
+  width: 100%;
+}
 
 
 

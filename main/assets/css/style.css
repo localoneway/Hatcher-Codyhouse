@@ -17221,6 +17221,12 @@ figure.snip1104.hover:before {
 
 .nav-logo {
   width: 100%;
+  display: block;
+  height: 75px;
+}
+
+.nav-logo-nobg {
+  width: 100%;
 }
 
 .nav-logo img {
