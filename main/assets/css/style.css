@@ -17258,7 +17258,7 @@ figure.snip1104.hover:before {
   display: block;
   font-size: x-large;
   margin-left: 8px;
-  margin-top: 12px;
+  margin-top: 7px;
   position: relative;
   opacity: 1;
   visibility: visible;
@@ -17510,15 +17510,15 @@ ul.sustainability-list > li::before {
 }
 
 .white-sq {
-  border: 5px solid #fff;
+  border: 3px solid #fff;
 }
 
 .left-gradient-border {
   /* gradient shining border */
   border-style: solid;
-  border-width: 5px;
-  -o-border-image: linear-gradient(to left, #3ecb34 1%, #257a1f 50%, #0d0d0d 100%) 100% 0 100% 0/5px 0 5px 0 stretch;
-     border-image: linear-gradient(to left, #3ecb34 1%, #257a1f 50%, #0d0d0d 100%) 100% 0 100% 0/5px 0 5px 0 stretch;
+  border-width: 3px;
+  -o-border-image: linear-gradient(to left, #3ecb34 1%, #257a1f 50%, #0d0d0d 100%) 100% 0 100% 0/3px 0 3px 0 stretch;
+     border-image: linear-gradient(to left, #3ecb34 1%, #257a1f 50%, #0d0d0d 100%) 100% 0 100% 0/3px 0 3px 0 stretch;
   /* other demo stuff */
   line-height: 50px;
 }
@@ -17526,9 +17526,9 @@ ul.sustainability-list > li::before {
 .right-gradient-border {
   /* gradient shining border */
   border-style: solid;
-  border-width: 5px;
-  -o-border-image: linear-gradient(to right, #019fc6 1%, #019fc6 50%, #0d0d0d 100%) 100% 0 100% 0/5px 0 5px 0 stretch;
-     border-image: linear-gradient(to right, #019fc6 1%, #019fc6 50%, #0d0d0d 100%) 100% 0 100% 0/5px 0 5px 0 stretch;
+  border-width: 3px;
+  -o-border-image: linear-gradient(to right, #019fc6 1%, #019fc6 50%, #0d0d0d 100%) 100% 0 100% 0/3px 0 3px 0 stretch;
+     border-image: linear-gradient(to right, #019fc6 1%, #019fc6 50%, #0d0d0d 100%) 100% 0 100% 0/3px 0 3px 0 stretch;
   /* other demo stuff */
   line-height: 50px;
 }
@@ -17565,7 +17565,7 @@ ul.sustainability-list > li::before {
 }
 
 .services-video-bg__media img {
-  width: 16%;
+  width: 250px;
   height: auto;
   padding-left: 15px;
 }
@@ -18509,7 +18509,9 @@ Main Components
   }
 
   .services-video-bg__media img {
-    width: 25%;
+    width: 175px;
+    padding-top: 40px;
+    padding-left: 20px;
   }
 
   .blue-arrow {
@@ -18535,6 +18537,11 @@ Main Components
     padding-left: 15%;
     padding-right: 15%;
   }
+
+  .innovation-padding {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 }
 @media only screen and (max-width: 64rem) and (min-width: 48rem) {
   .arrows {
@@ -18553,8 +18560,13 @@ Main Components
   }
 
   .sustainability-padding {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .innovation-padding {
+    padding-left: 19%;
+    padding-right: 19%;
   }
 }
 @media only screen and (max-width: 80rem) and (min-width: 64rem) {
@@ -18563,7 +18575,7 @@ Main Components
   }
 
   .services-video-bg__media img {
-    width: 13%;
+    width: 250px;
   }
 
   .arrows {
@@ -18581,8 +18593,13 @@ Main Components
   }
 
   .sustainability-padding {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 21%;
+    padding-right: 21%;
+  }
+
+  .innovation-padding {
+    padding-left: 20%;
+    padding-right: 20%;
   }
 }
 @media only screen and (max-width: 1000rem) and (min-width: 80rem) {
@@ -18590,13 +18607,14 @@ Main Components
     min-height: 350px;
   }
 
-  .services-video-bg__media img {
-    width: 13%;
+  .sustainability-padding, .services-believe-padding {
+    padding-left: 20%;
+    padding-right: 20%;
   }
 
-  .sustainability-padding, .services-believe-padding {
-    padding-left: 25%;
-    padding-right: 25%;
+  .innovation-padding {
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
   .services-mission-padding {
@@ -18606,5 +18624,11 @@ Main Components
 
   .arrows {
     min-height: 250px;
+  }
+
+  .services-video-bg__media img {
+    width: 250px;
+    height: auto;
+    padding-left: 28px;
   }
 }

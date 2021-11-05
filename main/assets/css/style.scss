@@ -810,7 +810,7 @@ figure.snip1104.hover:before {
   display: block;
   font-size: x-large;
   margin-left: 8px;
-  margin-top: 12px;
+  margin-top: 7px;
   position: relative;
   opacity: 1;
   visibility: visible;
@@ -1089,7 +1089,7 @@ ul.sustainability-list > li::before {
     margin-top: -6px;
   }
   .white-sq {
-      border: 5px solid #fff;
+      border: 3px solid #fff;
 
   }
 
@@ -1097,9 +1097,9 @@ ul.sustainability-list > li::before {
   .left-gradient-border {
   /* gradient shining border */
   border-style: solid;
-  border-width: 5px;
+  border-width: 3px;
   border-image: linear-gradient(to left, rgba(62, 203, 52, 1) 1%, rgba(37, 122, 31, 1) 50%, rgba(13, 13, 13, 1) 100%)
-                100% 0 100% 0/5px 0 5px 0 stretch;
+                100% 0 100% 0/3px 0 3px 0 stretch;
 
   /* other demo stuff */
 
@@ -1108,9 +1108,9 @@ ul.sustainability-list > li::before {
 .right-gradient-border {
 /* gradient shining border */
 border-style: solid;
-border-width: 5px;
+border-width: 3px;
 border-image: linear-gradient(to right, rgba(1, 159, 198, 1) 1%, rgba(1, 159, 198, 1) 50%, rgba(13, 13, 13, 1) 100%)
-              100% 0 100% 0/5px 0 5px 0 stretch;
+              100% 0 100% 0/3px 0 3px 0 stretch;
 
 /* other demo stuff */
 
@@ -1141,7 +1141,7 @@ line-height: 50px;
 }
 
 .services-video-bg__media img {
-    width: 16%;
+    width: 250px;
     height: auto;
     padding-left: 15px;
 }
@@ -2076,7 +2076,9 @@ figure.snip1104 figcaption {top: 60%;  /* position the top  edge of the element 
 .juanchos-left{padding-right: 0%; padding-left: 25%;}
 .services-top-bg, .arrows {background-size: 150% auto;}
 .services-video-bg__media img {
-   width: 25%;
+  width: 175px;
+  padding-top: 40px;
+  padding-left: 20px;
 }
 .blue-arrow{width: 150%;}
 .arrows{min-height: 250px;}
@@ -2087,6 +2089,7 @@ figure.snip1104 figcaption {top: 60%;  /* position the top  edge of the element 
     padding-top: 5%;
 }
 .sustainability-padding{padding-left: 15%; padding-right: 15%;}
+.innovation-padding{padding-left: 15%; padding-right: 15%;}
 }
 
 @media only screen and (max-width: 64rem) and (min-width: 48rem)  {
@@ -2097,13 +2100,14 @@ figure.snip1104 figcaption {top: 60%;  /* position the top  edge of the element 
       padding-right: 25%;
       padding-top: 5%;
   }
-  .sustainability-padding{padding-left: 10%; padding-right: 10%;}
+  .sustainability-padding{padding-left: 20%; padding-right: 20%;}
+  .innovation-padding{padding-left: 19%; padding-right: 19%;}
 }
 
 @media only screen and (max-width: 80rem) and (min-width: 64rem)  {
   .services-top-bg{min-height: 350px;}
   .services-video-bg__media img {
-     width: 13%;
+     width: 250px;
  }
    .arrows{min-height: 250px;}
    .services-believe-padding{padding-left: 15%; padding-right: 15%;}
@@ -2111,19 +2115,24 @@ figure.snip1104 figcaption {top: 60%;  /* position the top  edge of the element 
        padding-left: 25%;
        padding-right: 25%;
    }
-   .sustainability-padding{padding-left: 15%; padding-right: 15%;}
+   .sustainability-padding{padding-left: 21%; padding-right: 21%;}
+   .innovation-padding{padding-left: 20%; padding-right: 20%;}
  }
 
 @media only screen and (max-width: 1000rem) and (min-width: 80rem)  {
   .services-top-bg{min-height: 350px;}
-  .services-video-bg__media img {
-     width: 13%;
- }
-   .sustainability-padding, .services-believe-padding {padding-left: 25%; padding-right: 25%;}
+
+   .sustainability-padding, .services-believe-padding {padding-left: 20%; padding-right: 20%;}
+   .innovation-padding{padding-left: 15%; padding-right: 15%;}
 
    .services-mission-padding {
        padding-left: 35%;
        padding-right: 35%;
    }
    .arrows{min-height: 250px;}
+   .services-video-bg__media img {
+    width: 250px;
+    height: auto;
+    padding-left: 28px;
+}
  }
