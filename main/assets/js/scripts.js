@@ -1319,16 +1319,22 @@ function resetFocusTabsStyle() {
           swipe : false // enable/disable swipe
         }); 
       }
-       // animated headline
+    
+    // animated headline
     var headline = newContent.getElementsByClassName('text-anim');
     if(headline.length > 0) {
-      new TextAnim(headline);
-      }
-      // Modal
-      var modal = newContent.getElementsByClassName('modal');
-      new Modal(modal);
-      
-    },
+      new TextAnim(headline[1]);
+    }
+
+     // modal --NEEDS WORK
+     var modal = newContent.getElementsByClassName('modal');
+     if(modal.length > 0) {
+       new Modal(modal[0,1,2]);
+     }
+
+  },
+  // additional options here
+ 
   });
 
   function animateLoader(duration, startValue, finalValue, cb) {
