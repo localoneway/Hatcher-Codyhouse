@@ -1064,6 +1064,45 @@ figure.snip1104.hover:before {
  color:var(--color-white)
 }
 
+#upload1 {position: relative;
+  left: -104px;
+  z-index: -9;}
+
+/*--- FORMS STYLING ----- */
+.form-input-border {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, #fff 100%), linear-gradient(to left, rgba(0, 0, 0, 0) 0%, #fff 100%);
+  background-size: 100% 1px;
+  background-position: 0% 0%, 0% 100%;
+  background-repeat: no-repeat;
+  border-left: 1px #fff solid;
+  
+  color: white;
+  z-index: 999;
+  position: relative;
+  z-index: 1;
+}
+
+.form-input-border:focus {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, #fff 100%), linear-gradient(to left, rgba(0, 0, 0, 0) 0%, #fff 100%);
+  background-size: 100% 1px;
+  background-position: 0% 0%, 0% 100%;
+  background-repeat: no-repeat;
+  border-left: 1px #fff solid;
+ 
+  color: white;
+  z-index: 999;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.form-control{.form-control {
+  background: var(--color-bg-dark);
+  line-height: 1.2;
+  box-shadow: none;
+  transition: all 0.2s ease;
+}}
 
 /* -- Team page -- */
 
