@@ -1064,9 +1064,7 @@ figure.snip1104.hover:before {
  color:var(--color-white)
 }
 
-#upload1 {position: relative;
-  left: -104px;
-  z-index: -9;}
+#upload1 {display: none;}
 
 /*--- FORMS STYLING ----- */
 .form-input-border {
@@ -1114,6 +1112,7 @@ figure.snip1104.hover:before {
 }
 
 /*-- Services Page -- */
+.services-bg{background-image: url("/assets/img/gradient.png");}
 ul.sustainability-list {
     list-style: none;
     text-align: left;
@@ -1252,25 +1251,13 @@ line-height: 50px;
     position: absolute;
     top: 0;
     left: 0%;
-    height: 100%;
+    height: 100vh;
     width: auto;
     overflow: hidden;
-    padding-top: 5%;
+   
 }
 
-.contact-video-bg-contact__media {object-fit: cover; height: 100%; max-width: auto;}
-
-#videoBG {
-  width: 100vw;
- height: 100vh;
- object-fit: cover;
- position: fixed;
- left: 0;
- right: 0;
- top: 9%;
- bottom: 0;
- z-index: -1;
-}
+.contact-padding{padding-top: 20%;}
 
 
 
@@ -2103,7 +2090,7 @@ figure.snip1104 h1 {
 figure.snip1104 img {height: 25vh !important;}
 figure.snip1104 figcaption {top: 60%;  /* position the top  edge of the element at the middle of the parent */
   left: 50%; /* position the left edge of the element at the middle of the parent */
-
+  font-weight: 100;
   transform: translate(-50%, -50%); width: 100%;}
   .juanchos, .juanchos-left{padding-left: 30px; padding-right: 30px;}
   .advisory-top{padding-bottom: 10px; padding-left: 0; padding-right: 0;}

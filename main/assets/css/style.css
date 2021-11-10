@@ -17479,9 +17479,7 @@ figure.snip1104.hover:before {
 }
 
 #upload1 {
-  position: relative;
-  left: -104px;
-  z-index: -9;
+  display: none;
 }
 
 /*--- FORMS STYLING ----- */
@@ -17528,6 +17526,10 @@ figure.snip1104.hover:before {
 }
 
 /*-- Services Page -- */
+.services-bg {
+  background-image: url("/assets/img/gradient.png");
+}
+
 ul.sustainability-list {
   list-style: none;
   text-align: left;
@@ -17697,30 +17699,13 @@ ul.sustainability-list > li::before {
   position: absolute;
   top: 0;
   left: 0%;
-  height: 100%;
+  height: 100vh;
   width: auto;
   overflow: hidden;
-  padding-top: 5%;
 }
 
-.contact-video-bg-contact__media {
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 100%;
-  max-width: auto;
-}
-
-#videoBG {
-  width: 100vw;
-  height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 9%;
-  bottom: 0;
-  z-index: -1;
+.contact-padding {
+  padding-top: 20%;
 }
 
 /*-- Updates PAGE START --*/
@@ -18504,6 +18489,7 @@ Main Components
     /* position the top  edge of the element at the middle of the parent */
     left: 50%;
     /* position the left edge of the element at the middle of the parent */
+    font-weight: 100;
     transform: translate(-50%, -50%);
     width: 100%;
   }
