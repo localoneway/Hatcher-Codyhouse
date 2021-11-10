@@ -1093,15 +1093,6 @@ figure.snip1104.hover:before {
   z-index: 1;
 }
 
-
-
-.form-control{.form-control {
-  background: var(--color-bg-dark);
-  line-height: 1.2;
-  box-shadow: none;
-  transition: all 0.2s ease;
-}}
-
 /* -- Team page -- */
 
 .js .slideshow__item{height: 100%;}
@@ -1247,20 +1238,25 @@ line-height: 50px;
 .bg-contact{background-image: url("/assets/img/Globe-stand-in-darker.png"); background-repeat: no-repeat; background-size: cover; height: 90%; width: 100%; background-color: #000;}
 
 
-.contact-video-bg__media {
-    position: absolute;
-    top: 0;
-    left: 0%;
-    height: 100vh;
-    width: auto;
-    overflow: hidden;
-   
-}
 
-.contact-padding{padding-top: 20%;}
+.contact-video-bg__media video { 
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;}
 
+.contact-content{width: 100vw;
+  height: 80vh;
+  margin: 0 auto;
+  /* Flex rules */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;}
 
-
+.contact-links{padding-left: 33px;}
 /*-- Updates PAGE START --*/
 
 
@@ -2078,6 +2074,7 @@ Main Components
 .logo-img-h2 > h2 > img {
   width: 40vw;
 }
+.mobile-hidden{display: none;}
 .mobile-padding{padding-top: 20%;}
 .display_mobile{display: inherit;}
 .hidden_mobile{display: none;}
@@ -2116,6 +2113,7 @@ figure.snip1104 figcaption {top: 60%;  /* position the top  edge of the element 
 }
 .sustainability-padding{padding-left: 15%; padding-right: 15%;}
 .innovation-padding{padding-left: 15%; padding-right: 15%;}
+
 }
 
 @media only screen and (max-width: 64rem) and (min-width: 48rem)  {

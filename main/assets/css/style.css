@@ -17507,13 +17507,6 @@ figure.snip1104.hover:before {
   z-index: 1;
 }
 
-.form-control .form-control {
-  background: var(--color-bg-dark);
-  line-height: 1.2;
-  box-shadow: none;
-  transition: all 0.2s ease;
-}
-
 /* -- Team page -- */
 .js .slideshow__item {
   height: 100%;
@@ -17695,17 +17688,29 @@ ul.sustainability-list > li::before {
   background-color: #000;
 }
 
-.contact-video-bg__media {
+.contact-video-bg__media video {
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
   position: absolute;
   top: 0;
-  left: 0%;
-  height: 100vh;
-  width: auto;
-  overflow: hidden;
+  left: 0;
 }
 
-.contact-padding {
-  padding-top: 20%;
+.contact-content {
+  width: 100vw;
+  height: 80vh;
+  margin: 0 auto;
+  /* Flex rules */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-links {
+  padding-left: 33px;
 }
 
 /*-- Updates PAGE START --*/
@@ -18458,6 +18463,10 @@ Main Components
 
   .logo-img-h2 > h2 > img {
     width: 40vw;
+  }
+
+  .mobile-hidden {
+    display: none;
   }
 
   .mobile-padding {
