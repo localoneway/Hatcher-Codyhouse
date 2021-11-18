@@ -1104,7 +1104,7 @@ figure.snip1104.hover:before {
 
 /*-- Services Page -- */
 .services-bg {
-  background-image: url("/assets/img/gradientbackground.jpg");
+  background-image: url("/assets/img/gradient.jpg");
   background-repeat: repeat-x;
 }
 ul.sustainability-list {
@@ -1121,7 +1121,7 @@ ul.sustainability-list > li::before {
     margin-top: -6px;
   }
   .white-sq {
-      border: 3px solid #fff;
+      border: 1px solid #fff;
 
   }
 
@@ -1129,9 +1129,9 @@ ul.sustainability-list > li::before {
   .left-gradient-border {
   /* gradient shining border */
   border-style: solid;
-  border-width: 3px;
+  border-width: 1px;
   border-image: linear-gradient(to left, rgba(62, 203, 52, 1) 1%, rgba(37, 122, 31, 1) 50%, rgba(13, 13, 13, 1) 100%)
-                100% 0 100% 0/3px 0 3px 0 stretch;
+                100% 0 100% 0/1px 0 1px 0 stretch;
 
   /* other demo stuff */
 
@@ -1140,9 +1140,9 @@ ul.sustainability-list > li::before {
 .right-gradient-border {
 /* gradient shining border */
 border-style: solid;
-border-width: 3px;
+border-width: 1px;
 border-image: linear-gradient(to right, rgba(1, 159, 198, 1) 1%, rgba(1, 159, 198, 1) 50%, rgba(13, 13, 13, 1) 100%)
-              100% 0 100% 0/3px 0 3px 0 stretch;
+              100% 0 100% 0/1px 0 1px 0 stretch;
 
 /* other demo stuff */
 

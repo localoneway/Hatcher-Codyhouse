@@ -17520,7 +17520,7 @@ figure.snip1104.hover:before {
 
 /*-- Services Page -- */
 .services-bg {
-  background-image: url("/assets/img/gradientbackground.jpg");
+  background-image: url("/assets/img/gradient.jpg");
   background-repeat: repeat-x;
 }
 
@@ -17539,15 +17539,15 @@ ul.sustainability-list > li::before {
 }
 
 .white-sq {
-  border: 3px solid #fff;
+  border: 1px solid #fff;
 }
 
 .left-gradient-border {
   /* gradient shining border */
   border-style: solid;
-  border-width: 3px;
-  -o-border-image: linear-gradient(to left, #3ecb34 1%, #257a1f 50%, #0d0d0d 100%) 100% 0 100% 0/3px 0 3px 0 stretch;
-     border-image: linear-gradient(to left, #3ecb34 1%, #257a1f 50%, #0d0d0d 100%) 100% 0 100% 0/3px 0 3px 0 stretch;
+  border-width: 1px;
+  -o-border-image: linear-gradient(to left, #3ecb34 1%, #257a1f 50%, #0d0d0d 100%) 100% 0 100% 0/1px 0 1px 0 stretch;
+     border-image: linear-gradient(to left, #3ecb34 1%, #257a1f 50%, #0d0d0d 100%) 100% 0 100% 0/1px 0 1px 0 stretch;
   /* other demo stuff */
   line-height: 50px;
 }
@@ -17555,9 +17555,9 @@ ul.sustainability-list > li::before {
 .right-gradient-border {
   /* gradient shining border */
   border-style: solid;
-  border-width: 3px;
-  -o-border-image: linear-gradient(to right, #019fc6 1%, #019fc6 50%, #0d0d0d 100%) 100% 0 100% 0/3px 0 3px 0 stretch;
-     border-image: linear-gradient(to right, #019fc6 1%, #019fc6 50%, #0d0d0d 100%) 100% 0 100% 0/3px 0 3px 0 stretch;
+  border-width: 1px;
+  -o-border-image: linear-gradient(to right, #019fc6 1%, #019fc6 50%, #0d0d0d 100%) 100% 0 100% 0/1px 0 1px 0 stretch;
+     border-image: linear-gradient(to right, #019fc6 1%, #019fc6 50%, #0d0d0d 100%) 100% 0 100% 0/1px 0 1px 0 stretch;
   /* other demo stuff */
   line-height: 50px;
 }
