@@ -1104,9 +1104,8 @@ figure.snip1104.hover:before {
 
 /*-- Services Page -- */
 .services-bg {
-  background-image: url("/assets/img/gradient.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("/assets/img/gradientbackground.jpg");
+  background-repeat: repeat-x;
 }
 ul.sustainability-list {
     list-style: none;
