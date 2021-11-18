@@ -14086,7 +14086,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: var(--font-primary);
-  --heading-font-weight: 700;
+  --heading-font-weight: 100;
 }
 
 .font-primary {
@@ -14160,7 +14160,7 @@ h1, h2, h3, h4 {
   }
 }
 h1, h2, h3, h4 {
-  --heading-font-weight: 700;
+  --heading-font-weight: 100;
 }
 
 mark {
