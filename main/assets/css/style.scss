@@ -1103,7 +1103,11 @@ figure.snip1104.hover:before {
 }
 
 /*-- Services Page -- */
-.services-bg{background-image: url("/assets/img/gradient.png");}
+.services-bg {
+  background-image: url("/assets/img/gradient.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 ul.sustainability-list {
     list-style: none;
     text-align: left;
@@ -1170,9 +1174,11 @@ line-height: 50px;
 }
 
 .services-video-bg__media img {
-    width: 250px;
-    height: auto;
-    padding-left: 15px;
+  width: 30%;
+  height: auto;
+  padding-left: 0px;
+  position: absolute;
+  left: 37%;
 }
 
 .services-video-bg__media video{object-fit: scale-down; width: 30%; }
@@ -2143,7 +2149,7 @@ figure.snip1104 figcaption {top: 60%;  /* position the top  edge of the element 
    .innovation-padding{padding-left: 20%; padding-right: 20%;}
  }
 
-@media only screen and (max-width: 1000rem) and (min-width: 80rem)  {
+@media only screen and (max-width: 100rem) and (min-width: 80rem)  {
   .services-top-bg{min-height: 350px;}
 
    .sustainability-padding, .services-believe-padding {padding-left: 20%; padding-right: 20%;}
@@ -2158,5 +2164,17 @@ figure.snip1104 figcaption {top: 60%;  /* position the top  edge of the element 
     width: 250px;
     height: auto;
     padding-left: 28px;
+}
+ }
+
+ @media only screen and (max-width: 200rem) and (min-width: 100rem)  {
+  .arrows{min-height: 300px;}
+  .services-top-bg {
+    background-image: url("/assets/img/hatch-11-new.png");
+    background-size: 100% auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 550px;
 }
  }
