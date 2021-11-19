@@ -17319,16 +17319,16 @@ figure.snip1104.hover:before {
   display: inline-flex;
   padding: 4px 6px;
   text-decoration: none;
-  align-items: left;
+  align-items: center;
   opacity: 1;
   visibility: visible;
 }
 
 .link-fx-del-back .icon {
   display: block;
-  font-size: xx-large;
-  margin-left: 0;
-  margin-top: 0;
+  font-size: x-large;
+  margin-left: 8px;
+  margin-top: 7px;
   position: relative;
   opacity: 1;
   visibility: visible;
@@ -17380,6 +17380,75 @@ figure.snip1104.hover:before {
 }
 
 .link-fx-del-back:hover::before {
+  width: 100%;
+}
+
+.link-fx-del-success {
+  position: relative;
+  display: inline-flex;
+  padding: 3px 70px;
+  text-decoration: none;
+  align-items: center;
+  opacity: 1;
+  visibility: visible;
+}
+
+.link-fx-del-success .icon {
+  display: block;
+  font-size: x-large;
+  margin-right: 8px;
+  margin-top: 20px;
+  position: relative;
+  opacity: 1;
+  visibility: visible;
+  will-change: transform;
+  transform: translateY(0);
+  transition: opacity 0.3s, transform 0.3s var(--ease-out), visibility 0s 0.3s;
+}
+
+.link-fx-del-success .icon line {
+  transform-origin: 9px 6px;
+  will-change: transform;
+  transition: transform 0.3s var(--ease-out);
+}
+
+.link-fx-del-success .icon line:first-child {
+  transform: rotate(-90deg);
+}
+
+.link-fx-del-success .icon line:last-child {
+  transform: rotate(90deg);
+}
+
+.link-fx-del-success::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(100% - 18px);
+  height: 0px;
+  background-color: currentColor;
+  transition: 0.3s var(--ease-out);
+}
+
+.link-fx-del-success:hover .icon {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: opacity 0.3s, transform 0.3s var(--ease-out);
+}
+
+.link-fx-del-success:hover .icon line:first-child {
+  transform: rotate(-80deg);
+  color: var(--color-success);
+}
+
+.link-fx-del-success:hover .icon line:last-child {
+  transform: rotate(80deg);
+  color: var(--color-success);
+}
+
+.link-fx-del-success:hover::before {
   width: 100%;
 }
 
