@@ -1107,6 +1107,8 @@ figure.snip1104.hover:before {
   background-image: url("/assets/img/gradient.jpg");
   background-repeat: repeat-x;
 }
+
+.sustainability-min-heigth {min-height: 60px;}
 ul.sustainability-list {
     list-style: none;
     text-align: left;
@@ -2176,4 +2178,5 @@ figure.snip1104 figcaption {top: 60%;  /* position the top  edge of the element 
     background-position: center;
     min-height: 550px;
 }
+.services-believe-padding{max-width: var(--max-width-sm);}
  }

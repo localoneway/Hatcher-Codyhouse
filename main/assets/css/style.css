@@ -17524,6 +17524,10 @@ figure.snip1104.hover:before {
   background-repeat: repeat-x;
 }
 
+.sustainability-min-heigth {
+  min-height: 60px;
+}
+
 ul.sustainability-list {
   list-style: none;
   text-align: left;
@@ -18675,5 +18679,9 @@ Main Components
     background-repeat: no-repeat;
     background-position: center;
     min-height: 550px;
+  }
+
+  .services-believe-padding {
+    max-width: var(--max-width-sm);
   }
 }
