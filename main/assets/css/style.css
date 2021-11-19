@@ -17044,6 +17044,8 @@ figure.snip1104 figcaption {
   position: absolute;
   bottom: 10px;
   right: 20px;
+  text-align: center;
+  width: 100%;
 }
 
 /*-- figure.snip1104 h2 {
