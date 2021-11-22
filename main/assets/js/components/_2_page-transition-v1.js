@@ -82,7 +82,7 @@
     // animated headline
     var headline = newContent.getElementsByClassName('text-anim');
     if(headline.length > 0) {
-      new TextAnim(headline[1]);
+      new TextAnim(headline[0]);
     }
      // modal 
      var modal = document.getElementsByClassName('modal')[0];

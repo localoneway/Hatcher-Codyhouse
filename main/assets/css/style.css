@@ -17688,11 +17688,11 @@ ul.sustainability-list > li::before {
 }
 
 .services-video-bg__media img {
-  width: 30%;
+  width: 280px;
   height: auto;
   padding-left: 0px;
   position: absolute;
-  left: 37%;
+  left: 43%;
 }
 
 .services-video-bg__media video {
@@ -18548,10 +18548,6 @@ Main Components
     width: 100%;
     overflow: hidden;
     z-index: -2;
-  }
-
-  .services-video-bg__media img {
-    width: 30% !important;
   }
 
   .arrows {
