@@ -14234,6 +14234,19 @@ mark {
   box-shadow: inset 0px 1px 0px hsla(var(--color-white-h), var(--color-white-s), var(--color-white-l), 0.15), 0px 0px 0px 2px hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.2);
 }
 
+.btn--primary-del {
+  background: var(--color-primary);
+  color: var(--color-white);
+  box-shadow: none;
+}
+.btn--primary-del:hover {
+  background: var(--color-primary);
+  box-shadow: none;
+}
+.btn--primary-del:focus {
+  box-shadow: none;
+}
+
 .btn--subtle {
   background: var(--color-bg-light);
   color: var(--color-contrast-higher);

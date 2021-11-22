@@ -84,12 +84,9 @@
     if(headline.length > 0) {
       new TextAnim(headline[1]);
     }
-
-     // modal --NEEDS WORK
-     var modal = newContent.getElementsByClassName('modal');
-     if(modal.length > 0) {
-       new Modal(modal[0,1,2]);
-     }
+     // modal 
+     var modal = document.getElementsByClassName('modal')[0];
+     new Modal(modal);
 
   },
   // additional options here

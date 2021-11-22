@@ -49,6 +49,21 @@
   }
 }
 
+.btn--primary-del {
+  background: var(--color-primary);
+  color: var(--color-white);
+  box-shadow: none;
+
+  &:hover {
+    background: var(--color-primary);
+    box-shadow: none;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
 .btn--subtle {
   background: var(--color-bg-light);
   color: var(--color-contrast-higher);
