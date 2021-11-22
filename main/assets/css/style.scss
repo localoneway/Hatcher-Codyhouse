@@ -1082,7 +1082,11 @@ figure.snip1104.hover:before {
 }
 
 /* -- Team Page v2 -- */
-
+.container-team {
+  width: calc(80%);
+  margin-left: auto;
+  margin-right: auto;
+}
 .slideshow__item{
   align-items: flex-start;
 
@@ -2185,8 +2189,16 @@ figure.snip1104 figcaption {top: 60%;  /* position the top  edge of the element 
   .juanchos, .juanchos-left{padding-left: 30px; padding-right: 30px;}
   .advisory-top{padding-bottom: 10px; padding-left: 0; padding-right: 0;}
   .incubation-top{padding-right: 0; padding-top: 10px; padding-bottom: 10px; padding-left: 0;}
+  .team-bio-arrow {
+    position: relative;
+    top: -30px;
+    left: -20%;
+    z-index: 999;
 }
-
+}
+@media only screen and (max-width: 32rem) {
+  .contact-video-bg__media video{display: none;}
+}
 @media only screen and (max-width: 48rem) and (min-width: 32rem){
 .juanchos{padding-left: 0%; padding-right: 25%;}
 .juanchos-left{padding-right: 0%; padding-left: 25%;}
@@ -2206,6 +2218,7 @@ figure.snip1104 figcaption {top: 60%;  /* position the top  edge of the element 
 }
 .sustainability-padding{padding-left: 15%; padding-right: 15%;}
 .innovation-padding{padding-left: 15%; padding-right: 15%;}
+
 
 }
 

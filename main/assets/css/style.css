@@ -17478,6 +17478,12 @@ figure.snip1104.hover:before {
 }
 
 /* -- Team Page v2 -- */
+.container-team {
+  width: calc(80%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .slideshow__item {
   align-items: flex-start;
 }
@@ -18597,6 +18603,18 @@ Main Components
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 0;
+  }
+
+  .team-bio-arrow {
+    position: relative;
+    top: -30px;
+    left: -20%;
+    z-index: 999;
+  }
+}
+@media only screen and (max-width: 32rem) {
+  .contact-video-bg__media video {
+    display: none;
   }
 }
 @media only screen and (max-width: 48rem) and (min-width: 32rem) {
