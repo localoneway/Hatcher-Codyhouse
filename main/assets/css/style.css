@@ -18550,6 +18550,10 @@ Main Components
     z-index: -2;
   }
 
+  .services-video-bg__media img {
+    width: 280px;
+  }
+
   .arrows {
     height: 125px;
   }
