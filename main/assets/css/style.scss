@@ -973,12 +973,13 @@ figure.snip1104.hover:before {
 .link-fx-del-success {
   position: relative;
   display: inline-flex;
-  padding: 3px 70px;
   text-decoration: none;
   align-items: center;
   opacity: 1;
   visibility: visible;
 }
+
+.success-padding{padding: 3px 70px;}
 
 .link-fx-del-success .icon {
   display: block;
@@ -1082,7 +1083,10 @@ figure.snip1104.hover:before {
 }
 
 /* -- Team Page v2 -- */
-.container-team {
+.team-top{padding: var(--space-xl);}
+.success-bio-padding{padding: 0 0 0 20px;}
+.padding-bio-content{padding: var(--space-xl);}
+.container-team, .container-story {
   width: calc(80%);
   margin-left: auto;
   margin-right: auto;
@@ -1354,8 +1358,8 @@ line-height: 50px;
   align-items: center;}
 
 .contact-links{padding-left: 33px;}
-/*-- Updates PAGE START --*/
-
+/*-- stories PAGE START --*/
+.stories-header{font-size: var(--text-lg);}
 
 .card-v9--overlay-bg::before {
     content: '';
@@ -2125,6 +2129,7 @@ Main Components
 /*--- Mobile Stylings --*/
 
 @media only screen and (max-width: 32rem) {
+.padding-bio-content{padding: var(--space-xs);}
 .mobile-green-gradient{max-width: 100%;
   padding: 1rem;
   color: white;
@@ -2198,6 +2203,9 @@ figure.snip1104 figcaption {top: 60%;  /* position the top  edge of the element 
 }
 @media only screen and (max-width: 32rem) {
   .contact-video-bg__media video{display: none;}
+  .team-top{padding-top: var(--space-xxl);}
+  .stories-top{padding-top: var(--space-xl);}
+
 }
 @media only screen and (max-width: 48rem) and (min-width: 32rem){
 .juanchos{padding-left: 0%; padding-right: 25%;}
@@ -2232,6 +2240,8 @@ figure.snip1104 figcaption {top: 60%;  /* position the top  edge of the element 
   }
   .sustainability-padding{padding-left: 20%; padding-right: 20%;}
   .innovation-padding{padding-left: 19%; padding-right: 19%;}
+  .stories-header{font-size: var(--text-xxl);}
+
 }
 
 @media only screen and (max-width: 80rem) and (min-width: 64rem)  {
