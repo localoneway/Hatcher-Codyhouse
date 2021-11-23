@@ -18682,6 +18682,11 @@ Main Components
     padding-top: var(--space-xs);
     padding-bottom: var(--space-xs);
   }
+
+  .t-article-v3__hero h1 {
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+  }
 }
 @media only screen and (max-width: 48rem) and (min-width: 32rem) {
   .juanchos {
