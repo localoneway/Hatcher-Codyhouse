@@ -17624,6 +17624,16 @@ figure.snip1104.hover:before {
 }
 
 /*-- Services Page -- */
+.service-section-padding {
+  padding-top: var(--space-xxl);
+  padding-bottom: var(--space-xxl);
+}
+
+.service-section2-padding {
+  padding-top: var(--space-xxl);
+  padding-bottom: var(--space-xxl);
+}
+
 .services-bg {
   background-image: url("/assets/img/gradient.jpg");
   background-repeat: repeat-x;
@@ -17703,11 +17713,10 @@ ul.sustainability-list > li::before {
 }
 
 .services-video-bg__media img {
-  width: 280px;
+  width: 300px;
   height: auto;
-  padding-left: 0px;
-  position: absolute;
-  left: 43%;
+  position: relative;
+  left: 20px;
 }
 
 .services-video-bg__media video {
@@ -18573,10 +18582,6 @@ Main Components
     z-index: -2;
   }
 
-  .services-video-bg__media img {
-    width: 280px;
-  }
-
   .arrows {
     height: 125px;
   }
@@ -18660,6 +18665,23 @@ Main Components
   .stories-top {
     padding-top: var(--space-xl);
   }
+
+  .services-video-bg__media img {
+    width: 111px;
+    height: auto;
+    position: relative;
+    left: 6px;
+  }
+
+  .service-section-padding {
+    padding-top: var(--space-xxl);
+    padding-bottom: var(--space-xs);
+  }
+
+  .service-section2-padding {
+    padding-top: var(--space-xs);
+    padding-bottom: var(--space-xs);
+  }
 }
 @media only screen and (max-width: 48rem) and (min-width: 32rem) {
   .juanchos {
@@ -18676,18 +18698,20 @@ Main Components
     background-size: 150% auto;
   }
 
-  .services-video-bg__media img {
-    width: 175px;
-    padding-top: 40px;
-    padding-left: 20px;
-  }
-
   .blue-arrow {
     width: 150%;
   }
 
   .arrows {
     min-height: 250px;
+  }
+
+  .services-video-bg__media img {
+    width: 170px;
+    height: auto;
+    position: relative;
+    left: 10px;
+    top: 20px;
   }
 
   .services-believe-padding {
@@ -18714,6 +18738,13 @@ Main Components
 @media only screen and (max-width: 64rem) and (min-width: 48rem) {
   .arrows {
     min-height: 250px;
+  }
+
+  .services-video-bg__media img {
+    width: 250px;
+    height: auto;
+    position: relative;
+    left: 15px;
   }
 
   .services-believe-padding {
@@ -18746,12 +18777,15 @@ Main Components
     min-height: 350px;
   }
 
-  .services-video-bg__media img {
-    width: 250px;
-  }
-
   .arrows {
     min-height: 250px;
+  }
+
+  .services-video-bg__media img {
+    width: 250px;
+    height: auto;
+    position: relative;
+    left: 15px;
   }
 
   .services-believe-padding {
@@ -18801,7 +18835,8 @@ Main Components
   .services-video-bg__media img {
     width: 250px;
     height: auto;
-    padding-left: 28px;
+    position: relative;
+    left: 15px;
   }
 }
 @media only screen and (max-width: 200rem) and (min-width: 100rem) {
@@ -18820,5 +18855,10 @@ Main Components
 
   .services-believe-padding {
     max-width: var(--max-width-sm);
+  }
+
+  .services-mission-padding {
+    padding-left: 35%;
+    padding-right: 35%;
   }
 }
