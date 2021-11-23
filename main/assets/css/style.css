@@ -18684,8 +18684,8 @@ Main Components
   }
 
   .t-article-v3__hero h1 {
-    padding-left: var(--space-md);
-    padding-right: var(--space-md);
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
   }
 }
 @media only screen and (max-width: 48rem) and (min-width: 32rem) {
